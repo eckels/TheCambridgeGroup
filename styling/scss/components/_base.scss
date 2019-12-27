@@ -1,0 +1,88 @@
+/* Colors */
+$primary-color-1: #1C3552;
+$primary-color-2: #214D73;
+$primary-color-3: #60728A;
+$primary-color-4: #B4BBCA;
+$primary-color-5: #E1E4EA;
+$primary-color-6: #F0F1FA;
+
+$accent-color-blue: #28B1C4;
+$accent-color-orange: #EC5C3A;
+
+$white: #FFFFFF;
+$black: #000000;
+
+$primary-text: $primary-color-1;
+$accent-text: $accent-color-blue;
+$white-text: $white;
+$black-text: #2a2a2a;
+
+
+/* Fonts */
+@font-face {
+    font-family: century-gothic;
+    src: url(../../fonts/century-gothic-regular.ttf);
+}
+@font-face {
+    font-family: century-gothic;
+    src: url(../../fonts/century-gothic-bold.ttf);
+    font-weight: bold;
+}
+@font-face {
+    font-family: century-gothic;
+    src: url(../../fonts/century-gothic-italic.ttf);
+    font-style: italic;
+}
+@font-face {
+    font-family: century-gothic;
+    src: url(../../fonts/century-gothic-italic-bold.ttf);
+    font-style: italic;
+    font-weight: bold;
+}
+
+$font-stack: century-gothic, sans-serif;
+
+/* Common Style Rules */
+$text-base-size: 0.9em;
+$text-opacity: 0.7;
+//$box-shadow-big: ;
+//$box-shadow-small: ;
+
+/* Global Stylings */
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: $font-stack;
+    background-color: $white;
+}
+
+.clearfix:after {
+    content: " ";
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: $primary-color-1;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+h1 {
+    font-size: 2em;
+}
+h2 {
+    font-size: 1.5em;
+}
+h3 {
+    font-size: 1.2em;
+}
+
+p {
+    color: $primary-color-1;
+    margin: 0;
+    padding: 0;
+    font-size: 0.9em;
+}
