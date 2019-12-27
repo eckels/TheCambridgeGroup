@@ -85,7 +85,7 @@ p {
   justify-content: center;
   align-items: center;
   border: solid 1px #1C3552;
-  padding: 8px 15px 8px 15px;
+  padding: 8px 12px 8px 12px;
   border-radius: 30px;
   transition: border 0.2s;
 }
