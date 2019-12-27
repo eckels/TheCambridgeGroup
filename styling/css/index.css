@@ -171,6 +171,7 @@ p {
   opacity: 0.5;
   transition: all 0.2s;
   position: absolute;
+  left: -20px;
 }
 .desktop-nav .nav-search img:hover {
   opacity: 1;
