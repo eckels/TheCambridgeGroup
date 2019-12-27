@@ -273,6 +273,7 @@ p {
   width: auto;
   left: 50%;
   margin-left: -332px;
+  padding-top: 32px;
 }
 
 .desktop-nav-transparent {
