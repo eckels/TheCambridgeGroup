@@ -44,3 +44,11 @@ $(function() {
         $nav.toggleClass('desktop-nav-transparent', $(this).scrollTop() <= $nav.height());
     });
 });
+
+
+$(function() {
+    $(document).scroll(function () {
+        var $nav = $("#mobile-homepage");
+        $nav.toggleClass('mobile-nav-transparent', $(this).scrollTop() <= $nav.height());
+    });
+});
