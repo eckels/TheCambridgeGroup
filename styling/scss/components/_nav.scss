@@ -67,9 +67,10 @@ $desktop-nav-padding-vertical: 10px;
 .desktop-nav {
     background-color: $white;
     width: 100%;
-    box-shadow: 0 2px 4px 0px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 2px 6px 0px rgba(0, 0, 0, 0.25);
     min-height: 60px;
     position: fixed;
+    transition: all 0.2s;
     .nav-wrap {
         position: relative;
         margin-left: auto;
