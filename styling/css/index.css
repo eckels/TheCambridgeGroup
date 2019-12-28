@@ -338,7 +338,7 @@ p {
   position: relative;
   margin-left: auto;
   margin-right: auto;
-  padding: 8px 20px 8px 18px;
+  padding: 8px 12px 8px 18px;
 }
 .mobile-nav .mobile-nav-bar .content-bar .logo {
   height: 28px;
@@ -366,8 +366,9 @@ p {
   position: relative;
   height: 18px;
   width: 18px;
+  padding: 8px;
   display: inline-block;
-  margin-left: 16px;
+  margin-left: 4px;
 }
 .mobile-nav .mobile-nav-bar .content-bar .search {
   height: 18px;
