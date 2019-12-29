@@ -47,10 +47,12 @@ $(function() {
 
 // Mobile
 
+var isOpen = false;
+
 $(function() {
     $(document).scroll(function () {
         var $nav = $("#mobile-homepage");
-        $nav.toggleClass('mobile-nav-transparent', $(this).scrollTop() <= $nav.height());
+        $nav.toggleClass('mobile-nav-transparent', $(this).scrollTop() <= $nav.height() && !isOpen);
     });
 });
 
@@ -65,4 +67,47 @@ $('#mobile-search-exit').click(function() {
     var curr = $('.mobile-search-wrapper');
     curr.css("visibility", "hidden");
     $('.mobile-search-shader').css("opacity", 0);
+});
+
+$('.dropdown-arrow').click(function() {
+    var dropdown = $(this).closest('.clearfix').next('.nav-dropdown');
+    if ($(this).hasClass('dropdown-arrow-active')) {
+        $(this).removeClass('dropdown-arrow-active');
+        dropdown.css("max-height", '');
+        dropdown.css("margin-bottom", "0px");
+    } else {
+        $('.nav-dropdown').each(function(index, element) {
+            $(element).prev('.clearfix').children('.dropdown-arrow').removeClass('dropdown-arrow-active');
+            $(element).css("max-height", '');
+            $(element).css("margin-bottom", "0px");
+        });
+        $(this).addClass('dropdown-arrow-active');
+        var dropdownheight = dropdown.prop('scrollHeight') + 'px';
+        dropdown.css("max-height", dropdownheight);
+        dropdown.css("margin-bottom", "8px");
+    }
+});
+
+$('.menu-open').click(function() {
+    isOpen = true;
+    $('.menu-open').css("visibility", "hidden");
+    $('.menu-open').css("opacity", 0);
+    $("#mobile-homepage").removeClass('mobile-nav-transparent');
+    $('#menu-close-target').css("visibility", "visible");
+    $('#menu-close-target').css("opacity", 0.5);
+    $('.mobile-nav-slide').css("left", 0);
+    $('.slide-shader').css("visibility", "visible");
+    $('.slide-shader').css("opacity", 0.75);
+});
+
+$('#menu-close-target, .slide-shader').click(function() {
+    isOpen = false;
+    $('.menu-open').css("visibility", '');
+    $('.menu-open').css("opacity", '');
+    $("#mobile-homepage").toggleClass('mobile-nav-transparent', $(document).scrollTop() <= $("#mobile-homepage").height() && !isOpen);
+    $('#menu-close-target').css("visibility", "hidden");
+    $('#menu-close-target').css("opacity", 0);
+    $('.mobile-nav-slide').css("left", '');
+    $('.slide-shader').css("visibility", '');
+    $('.slide-shader').css("opacity", '');
 });
