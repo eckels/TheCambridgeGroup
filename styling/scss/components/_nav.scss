@@ -356,6 +356,7 @@ $desktop-nav-padding-vertical: 10px;
                 visibility: hidden;
                 opacity: 0;
             }
+
             .nav-right {
                 width: 100%;
                 height: 32px;
@@ -364,8 +365,8 @@ $desktop-nav-padding-vertical: 10px;
                 justify-content: flex-end;
                 .nav-right-container {
                     position: relative;
-                    height: 18px;
-                    width: 18px;
+                    height: 20px;
+                    width: 20px;
                     padding: 8px;
                     display: inline-block;
                     margin-left: 4px;
@@ -373,7 +374,7 @@ $desktop-nav-padding-vertical: 10px;
             }
 
             .search {
-                height: 18px;
+                height: 20px;
                 width: auto;
                 transition: all 0.2s;
                 position: absolute;
@@ -389,7 +390,7 @@ $desktop-nav-padding-vertical: 10px;
             }
 
             .menu {
-                height: 18px;
+                height: 20px;
                 width: auto;
                 transition: all 0.2s;
                 position: absolute;
