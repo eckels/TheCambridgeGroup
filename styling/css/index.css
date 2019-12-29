@@ -511,7 +511,7 @@ p {
   padding: 12px;
 }
 .mobile-nav-slide-wrapper .mobile-nav-slide .body-nav .list-item {
-  border-bottom: solid rgba(0, 0, 0, 0.15) 1px;
+  border-bottom: solid rgba(0, 0, 0, 0.08) 1px;
   width: 100%;
   position: relative;
 }
