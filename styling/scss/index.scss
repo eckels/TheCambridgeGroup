@@ -12,7 +12,9 @@
     background-position: center;
     .home-header-content {
         max-width: 1250px;
-        width: 100%;
+        width: -moz-calc(100% - 96px);
+        width: -webkit-calc(100% - 96px);
+        width: calc(100% - 96px);
         margin-left: auto;
         margin-right: auto;
         position: relative;

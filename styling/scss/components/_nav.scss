@@ -293,6 +293,8 @@ $desktop-nav-padding-vertical: 10px;
         .mobile-search-wrapper {
             display: flex;
             align-items: center;
+            width: -moz-calc(100% - 20px);
+            width: -webkit-calc(100% - 20px);
             width: calc(100% - 20px);
             img {
                 height: 18px;
@@ -301,6 +303,8 @@ $desktop-nav-padding-vertical: 10px;
             input {
                 font-family: century-gothic, sans-serif;
                 font-size: 1em;
+                width: -moz-calc(100% - 30px);
+                width: -webkit-calc(100% - 30px);
                 width: calc(100% - 30px);
                 border: none;
                 outline: none;
@@ -456,7 +460,11 @@ $desktop-nav-padding-vertical: 10px;
         z-index: 141;
         background-color: $white;
         top: 48px;
+        height: -moz-calc(100vh - 48px);
+        height: -webkit-calc(100vh - 48px);
         height: calc(100vh - 48px);
+        width: -moz-calc(100% - 48px);
+        width: -webkit-calc(100% - 48px);
         width: calc(100% - 48px);
         max-width: 500px;
         overflow: auto;
@@ -468,6 +476,8 @@ $desktop-nav-padding-vertical: 10px;
                 width: 100%;
                 position: relative;
                 .list-link {
+                    width: -moz-calc(100% - 32px);
+                    width: -webkit-calc(100% - 32px);
                     width: calc(100% - 32px);
                     display: block;
                     float: left;

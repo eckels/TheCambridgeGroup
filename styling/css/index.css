@@ -404,6 +404,8 @@ button:hover {
 .mobile-search-wrapper .mobile-search-bar .mobile-search-wrapper {
   display: flex;
   align-items: center;
+  width: -moz-calc(100% - 20px);
+  width: -webkit-calc(100% - 20px);
   width: calc(100% - 20px);
 }
 .mobile-search-wrapper .mobile-search-bar .mobile-search-wrapper img {
@@ -413,6 +415,8 @@ button:hover {
 .mobile-search-wrapper .mobile-search-bar .mobile-search-wrapper input {
   font-family: century-gothic, sans-serif;
   font-size: 1em;
+  width: -moz-calc(100% - 30px);
+  width: -webkit-calc(100% - 30px);
   width: calc(100% - 30px);
   border: none;
   outline: none;
@@ -559,7 +563,11 @@ button:hover {
   z-index: 141;
   background-color: #FFFFFF;
   top: 48px;
+  height: -moz-calc(100vh - 48px);
+  height: -webkit-calc(100vh - 48px);
   height: calc(100vh - 48px);
+  width: -moz-calc(100% - 48px);
+  width: -webkit-calc(100% - 48px);
   width: calc(100% - 48px);
   max-width: 500px;
   overflow: auto;
@@ -574,6 +582,8 @@ button:hover {
   position: relative;
 }
 .mobile-nav-slide-wrapper .mobile-nav-slide .body-nav .list-item .list-link {
+  width: -moz-calc(100% - 32px);
+  width: -webkit-calc(100% - 32px);
   width: calc(100% - 32px);
   display: block;
   float: left;
@@ -768,7 +778,9 @@ button:hover {
 }
 #home-header .home-header-content {
   max-width: 1250px;
-  width: 100%;
+  width: -moz-calc(100% - 96px);
+  width: -webkit-calc(100% - 96px);
+  width: calc(100% - 96px);
   margin-left: auto;
   margin-right: auto;
   position: relative;
