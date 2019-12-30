@@ -38,12 +38,16 @@ $('#search-exit').click(function() {
     $('#search-shader').css("opacity", 0);
 });
 
+
 $(function() {
     $(document).scroll(function () {
         var $nav = $("#homepage");
-        $nav.toggleClass('desktop-nav-transparent', $(this).scrollTop() <= $nav.height());
+        if ($nav.css('display') == 'block') {
+            $nav.toggleClass('desktop-nav-transparent', $(this).scrollTop() <= $nav.height());
+        }
     });
 });
+
 
 // Mobile
 
@@ -52,7 +56,9 @@ var isOpen = false;
 $(function() {
     $(document).scroll(function () {
         var $nav = $("#mobile-homepage");
-        $nav.toggleClass('mobile-nav-transparent', $(this).scrollTop() <= $nav.height() && !isOpen);
+        if ($nav.css('display') == 'block') {
+            $nav.toggleClass('mobile-nav-transparent', $(this).scrollTop() <= $nav.height() && !isOpen);
+        }
     });
 });
 
