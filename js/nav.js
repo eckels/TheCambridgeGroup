@@ -111,3 +111,10 @@ $('#menu-close-target, .slide-shader').click(function() {
     $('.slide-shader').css("visibility", '');
     $('.slide-shader').css("opacity", '');
 });
+
+
+// Footer
+$(document).ready(function() {
+    var curr_time = new Date();
+    $('#date-target').html(curr_time.getFullYear());
+});
