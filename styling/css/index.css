@@ -83,6 +83,12 @@ button:hover {
   top: -2px;
 }
 
+@media (max-width: 500px) {
+  button {
+    font-size: 0.85em;
+    padding: 10px 20px;
+  }
+}
 /* Components */
 #desktop-search-wrapper {
   visibility: hidden;
