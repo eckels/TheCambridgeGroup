@@ -101,6 +101,7 @@ button {
     border-radius: 2px;
     position: relative;
     top: 0;
+    z-index: 5;
 }
 button:hover {
     background-color: $accent-color-blue-highlight;

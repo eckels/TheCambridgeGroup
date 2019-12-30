@@ -16,10 +16,12 @@
         margin-left: auto;
         margin-right: auto;
         position: relative;
+        z-index: 49;
         height: 80vh;
         padding-left: 48px;
         padding-right: 48px;
         .blurb {
+            z-index: 50;
             position: absolute;
             bottom: 25vh;
             max-width: 500px;
