@@ -56,3 +56,116 @@
         }
     }
 }
+
+.home-capabilities {
+    text-align: center;
+    .home-capabilities-content {
+        h1 {
+            margin-bottom: 12px;
+        }
+        .desc {
+            max-width: 750px;
+            margin-left: auto;
+            margin-right: auto;
+            line-height: 145%;
+            margin-bottom: 36px;
+        }
+        .icon-grid-wrapper {
+            max-width: 1000px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 30px;
+            .icon-grid {
+                display: flex;
+                justify-content: space-evenly;
+                align-items: flex-start;
+                flex-wrap: wrap;
+                width: 100%;
+                a {
+                    text-decoration: none;
+                }
+                .icon {
+                    width: 248px;
+                    padding-left: 16px;
+                    padding-right: 16px;
+                    margin-top: 24px;
+                    margin-bottom: 24px;
+                    position: relative;
+                    transition: all 0.1s;
+                    top: 0;
+                    img {
+                        position: relative;
+                        height: 50px;
+                        width: auto;
+                        opacity: 0.75;
+                        transition: all 0.1s;
+                    }
+                    p {
+                        margin-top: 12px;
+                    }
+                }
+                .icon:hover img {
+                    opacity: 1;
+                }
+                .icon:hover {
+                    top: -2px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 930px) {
+    .home-capabilities {
+        .home-capabilities-content {
+            .icon-grid-wrapper {
+                .icon-grid {
+                    .icon {
+                        margin-top: 16px;
+                        margin-bottom: 16px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 650px) {
+    .home-capabilities {
+        .home-capabilities-content {
+            .icon-grid-wrapper {
+                .icon-grid {
+                    .icon {
+                        width: 140px;
+                        padding-left: 6px;
+                        padding-right: 6px;
+                        p {
+                            font-size: 0.9em;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 370px) {
+    .home-capabilities {
+        .home-capabilities-content {
+            .icon-grid-wrapper {
+                .icon-grid {
+                    .icon {
+                        width: 130px;
+                        padding-left: 2px;
+                        padding-right: 2px;
+                        margin-top: 8px;
+                        margin-bottom: 8px;
+                        img {
+                            height: 42px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

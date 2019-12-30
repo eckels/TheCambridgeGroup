@@ -81,11 +81,24 @@ h3 {
     font-size: 1.2em;
 }
 
+@media (max-width: 500px) {
+    h1 {
+        font-size: 1.6em;
+    }
+    h2 {
+        font-size: 1.3em;
+    }
+    h3 {
+        font-size: 1.1em;
+    }
+}
+
 p {
     color: $primary-color-1;
     margin: 0;
     padding: 0;
-    font-size: 0.9em;
+    font-size: 0.95em;
+    line-height: 135%;
 }
 
 button {
@@ -112,5 +125,23 @@ button:hover {
     button {
         font-size: 0.85em;
         padding: 12px 20px;
+    }
+}
+
+.section {
+    width: 100%;
+    .section-content {
+        max-width: 1250px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 36px;
+    }
+}
+
+@media (max-width: 500px) {
+    .section {
+        .section-content {
+            padding: 24px 18px 24px 18px;
+        }
     }
 }
