@@ -7,6 +7,7 @@ $primary-color-5: #E1E4EA;
 $primary-color-6: #F0F1FA;
 
 $accent-color-blue: #28B1C4;
+$accent-color-blue-highlight: #46c7d9;
 $accent-color-orange: #EC5C3A;
 
 $white: #FFFFFF;
@@ -85,4 +86,23 @@ p {
     margin: 0;
     padding: 0;
     font-size: 0.9em;
+}
+
+button {
+    outline: none;
+    border: none;
+    color: $white-text;
+    background-color: $accent-color-blue;
+    font-size: 0.9em;
+    padding: 12px 24px;
+    cursor: pointer;
+    transition: all 0.2s;
+    box-shadow: 0 2px 4px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 2px;
+    position: relative;
+    top: 0;
+}
+button:hover {
+    background-color: $accent-color-blue-highlight;
+    top: -2px;
 }
