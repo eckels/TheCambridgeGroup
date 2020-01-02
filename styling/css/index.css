@@ -1321,6 +1321,9 @@ button:hover {
   .home-careers .home-careers-content .centered-wrapper .centered .left .white-box .award p {
     font-size: 0.95em;
   }
+  .home-careers .home-careers-content .centered-wrapper .centered .left .link-arrow-white {
+    text-align: center;
+  }
   .home-careers .home-careers-content .centered-wrapper .centered .right {
     width: 100%;
     margin-bottom: -5px;
