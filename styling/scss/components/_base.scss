@@ -128,20 +128,69 @@ button:hover {
     }
 }
 
+.link-arrow, .link-arrow-white {
+    transition: all 0.2s;
+    a {
+        padding-top: 6px;
+        padding-bottom: 6px;
+        text-decoration: none;
+        transition: all 0.2s;
+    }
+}
+.link-arrow:after, .link-arrow-white:after {
+    content: "";
+    position: relative;
+    display: inline-block;
+    background: url(../../img/right-arrow-accent.svg) no-repeat center right;
+    background-size: contain;
+    width: 24px;
+    height: 16px;
+    vertical-align: text-bottom;
+    left: 2px;
+    transition: all 0.2s;
+}
+
+.link-arrow:hover:after, .link-arrow-white:hover:after {
+    left: 10px;
+}
+
+.link-arrow:hover, .link-arrow-white:hover {
+    color: $accent-color-blue;
+    a {
+        color: $accent-color-blue;
+    }
+}
+
+.link-arrow {
+    color: $primary-color-1;
+    a {
+        color: $primary-color-1;
+        text-decoration: none;
+    }
+}
+
+.link-arrow-white {
+    color: $white-text;
+    a {
+        color: $white-text;
+        text-decoration: none;
+    }
+}
+
 .section {
     width: 100%;
     .section-content {
         max-width: 1250px;
         margin-left: auto;
         margin-right: auto;
-        padding: 36px;
+        padding: 48px 36px;
     }
 }
 
 @media (max-width: 500px) {
     .section {
         .section-content {
-            padding: 24px 18px 24px 18px;
+            padding: 30px 18px 30px 18px;
         }
     }
 }
