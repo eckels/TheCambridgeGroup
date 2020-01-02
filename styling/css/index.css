@@ -1040,6 +1040,7 @@ button:hover {
   width: 48.5%;
   margin-right: 1.5%;
   height: auto;
+  border-radius: 2px;
 }
 .home-news .home-news-content .news-grid-wrapper .news-grid-upper .article .article-text {
   width: 48.5%;
@@ -1071,6 +1072,7 @@ button:hover {
 .home-news .home-news-content .news-grid-wrapper .news-grid-lower .article img {
   width: 100%;
   height: auto;
+  border-radius: 2px;
 }
 .home-news .home-news-content .news-grid-wrapper .news-grid-lower .article .article-text {
   margin-top: 12px;
@@ -1239,6 +1241,7 @@ button:hover {
   box-shadow: 0 2px 6px 0px rgba(0, 0, 0, 0.25);
   padding: 30px 24px;
   margin-bottom: 18px;
+  border-radius: 2px;
 }
 .home-careers .home-careers-content .centered-wrapper .centered .left .white-box .award {
   display: flex;
@@ -1264,6 +1267,7 @@ button:hover {
 .home-careers .home-careers-content .centered-wrapper .centered .right img {
   width: 100%;
   height: auto;
+  border-radius: 2px;
 }
 
 @media (max-width: 1050px) {
@@ -1306,6 +1310,7 @@ button:hover {
   .home-careers .home-careers-content .centered-wrapper .centered .left .white-box {
     padding: 30px 24px;
     margin-bottom: 18px;
+    border-radius: 0 0 2px 2px;
   }
   .home-careers .home-careers-content .centered-wrapper .centered .left .white-box .award img {
     height: 42px;
@@ -1318,6 +1323,7 @@ button:hover {
     margin-bottom: -5px;
   }
   .home-careers .home-careers-content .centered-wrapper .centered .right img {
+    border-radius: 2px 2px 0 0;
     margin: 0;
   }
 }
