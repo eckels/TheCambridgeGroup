@@ -1033,7 +1033,7 @@ button:hover {
   height: auto;
   display: flex;
   justify-content: flex-start;
-  align-items: stretch;
+  align-items: flex-start;
   text-decoration: none;
 }
 .home-news .home-news-content .news-grid-wrapper .news-grid-upper .article img {
