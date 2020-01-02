@@ -1209,12 +1209,126 @@ button:hover {
 }
 .home-careers {
   background-color: #1C3552;
-  text-align: center;
-  margin-bottom: 400px;
+  margin-bottom: 100px;
 }
 .home-careers .home-careers-content h1 {
-  margin-bottom: 12px;
+  text-align: center;
+  margin-bottom: 36px;
   color: #FFFFFF;
+}
+.home-careers .home-careers-content .centered-wrapper {
+  max-width: 1050px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.home-careers .home-careers-content .centered-wrapper .centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row-reverse;
+  width: 100%;
+}
+.home-careers .home-careers-content .centered-wrapper .centered .left {
+  width: 45%;
+  margin-right: -2.5%;
+  position: relative;
+  z-index: 3;
+}
+.home-careers .home-careers-content .centered-wrapper .centered .left .white-box {
+  background-color: #FFFFFF;
+  box-shadow: 0 2px 6px 0px rgba(0, 0, 0, 0.25);
+  padding: 30px 24px;
+  margin-bottom: 18px;
+}
+.home-careers .home-careers-content .centered-wrapper .centered .left .white-box .award {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 18px;
+}
+.home-careers .home-careers-content .centered-wrapper .centered .left .white-box .award img {
+  height: 56px;
+  width: auto;
+  margin-right: 10px;
+}
+.home-careers .home-careers-content .centered-wrapper .centered .left .white-box .award p {
+  color: #28B1C4;
+  font-style: italic;
+  font-size: 1.05em;
+}
+.home-careers .home-careers-content .centered-wrapper .centered .right {
+  width: 50%;
+  position: relative;
+  z-index: 2;
+}
+.home-careers .home-careers-content .centered-wrapper .centered .right img {
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 1050px) {
+  .home-careers .home-careers-content .centered-wrapper .centered .left {
+    width: 48%;
+    margin-right: -15%;
+  }
+  .home-careers .home-careers-content .centered-wrapper .centered .left .white-box {
+    padding: 24px 18px;
+    margin-bottom: 12px;
+  }
+  .home-careers .home-careers-content .centered-wrapper .centered .left .white-box .award img {
+    margin-right: 8px;
+  }
+  .home-careers .home-careers-content .centered-wrapper .centered .right {
+    width: 60%;
+  }
+}
+@media (max-width: 900px) {
+  .home-careers .home-careers-content .centered-wrapper .centered .left {
+    width: 60%;
+    margin-right: -20%;
+  }
+  .home-careers .home-careers-content .centered-wrapper .centered .right {
+    width: 65%;
+  }
+}
+@media (max-width: 780px) {
+  .home-careers .home-careers-content .centered-wrapper .centered {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .home-careers .home-careers-content .centered-wrapper .centered .left {
+    width: 100%;
+    margin-right: -2.5%;
+  }
+  .home-careers .home-careers-content .centered-wrapper .centered .left .white-box {
+    padding: 30px 24px;
+    margin-bottom: 18px;
+  }
+  .home-careers .home-careers-content .centered-wrapper .centered .left .white-box .award img {
+    height: 42px;
+  }
+  .home-careers .home-careers-content .centered-wrapper .centered .left .white-box .award p {
+    font-size: 0.95em;
+  }
+  .home-careers .home-careers-content .centered-wrapper .centered .right {
+    width: 100%;
+    margin-bottom: -5px;
+  }
+  .home-careers .home-careers-content .centered-wrapper .centered .right img {
+    margin: 0;
+  }
+}
+@media (max-width: 420px) {
+  .home-careers .home-careers-content .centered-wrapper .centered .left .white-box {
+    padding: 24px 18px;
+    margin-bottom: 24px;
+  }
+  .home-careers .home-careers-content .centered-wrapper .centered .left .link-arrow-white {
+    margin-bottom: 18px;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */
