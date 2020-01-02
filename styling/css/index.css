@@ -1296,6 +1296,9 @@ button:hover {
   }
 }
 @media (max-width: 780px) {
+  .home-careers .home-careers-content h1 {
+    margin-bottom: 18px;
+  }
   .home-careers .home-careers-content .centered-wrapper .centered {
     display: block;
     width: 100%;
