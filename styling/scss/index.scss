@@ -45,8 +45,9 @@
             padding-left: 0;
             padding-right: 0;
             display: flex;
-            justify-content: center;
+            justify-content: flex-start;
             align-items: center;
+            width: 100%;
             .blurb {
                 position: static;
                 padding-left: 30px;
