@@ -316,6 +316,8 @@
                         }
                         h3 {
                             transition: all 0.2s;
+                            font-weight: normal;
+                            font-size: 1.1em;
                         }
                     }
                 }
@@ -340,15 +342,6 @@
                         .article-text {
                             h2 {
                                 font-size: 1.3em;
-                            }
-                        }
-                    }
-                }
-                .news-grid-lower {
-                    .article {
-                        .article-text {
-                            h3 {
-                                font-size: 1.1em;
                             }
                         }
                     }
@@ -387,6 +380,7 @@
                             h2 {
                                 margin-bottom: 0;
                                 font-size: 1.1em;
+                                font-weight: normal;
                             }
                             .desc {
                                 display: none;
@@ -410,9 +404,6 @@
                             margin-top: 0;
                             .category {
                                 margin-bottom: 2px;
-                            }
-                            h3 {
-
                             }
                         }
                     }

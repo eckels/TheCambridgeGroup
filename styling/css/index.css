@@ -1083,6 +1083,8 @@ button:hover {
 }
 .home-news .home-news-content .news-grid-wrapper .news-grid-lower .article .article-text h3 {
   transition: all 0.2s;
+  font-weight: normal;
+  font-size: 1.1em;
 }
 .home-news .home-news-content .news-grid-wrapper .news-grid-lower a.article:hover .article-text h3 {
   color: #28B1C4;
@@ -1091,9 +1093,6 @@ button:hover {
 @media (max-width: 1050px) {
   .home-news .home-news-content .news-grid-wrapper .news-grid-upper .article .article-text h2 {
     font-size: 1.3em;
-  }
-  .home-news .home-news-content .news-grid-wrapper .news-grid-lower .article .article-text h3 {
-    font-size: 1.1em;
   }
 }
 @media (max-width: 900px) {
@@ -1125,6 +1124,7 @@ button:hover {
   .home-news .home-news-content .news-grid-wrapper .news-grid-upper .article .article-text h2 {
     margin-bottom: 0;
     font-size: 1.1em;
+    font-weight: normal;
   }
   .home-news .home-news-content .news-grid-wrapper .news-grid-upper .article .article-text .desc {
     display: none;
