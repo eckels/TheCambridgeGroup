@@ -38,6 +38,13 @@ $('#search-exit').click(function() {
     $('#search-shader').css("opacity", 0);
 });
 
+$(document).ready(function() {
+    var $nav = $("#homepage");
+    if ($nav.css('display') == 'block') {
+        $nav.toggleClass('desktop-nav-transparent', $(this).scrollTop() <= $nav.height());
+    }
+});
+
 
 $(function() {
     $(document).scroll(function () {
@@ -52,6 +59,13 @@ $(function() {
 // Mobile
 
 var isOpen = false;
+
+$(document).ready(function() {
+    var $nav = $("#mobile-homepage");
+    if ($nav.css('display') == 'block') {
+        $nav.toggleClass('mobile-nav-transparent', $(this).scrollTop() <= $nav.height() && !isOpen);
+    }
+});
 
 $(function() {
     $(document).scroll(function () {
