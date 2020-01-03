@@ -95,6 +95,7 @@ $desktop-nav-padding-vertical: 10px;
         z-index: 131;
         visibility: hidden;
         opacity: 0;
+        margin-top: 0px;
         transition: all 0.2s;
     }
     .nav-search {
@@ -222,9 +223,9 @@ $desktop-nav-padding-vertical: 10px;
 .desktop-nav-transparent {
     background-color: transparent;
     box-shadow: 0 2px 4px 0px rgba(0, 0, 0, 0);
-    min-height: 82px;
+    min-height: 78px;
     .nav-wrap {
-        padding: 22px $desktop-nav-padding-sides;
+        padding: 20px $desktop-nav-padding-sides;
     }
     .logo {
         visibility: none;
@@ -235,9 +236,10 @@ $desktop-nav-padding-vertical: 10px;
         opacity: 1;
         height: 48px;
         width: auto;
+        margin-top: -4px;
     }
     .nav-search {
-        top: 32px;
+        top: 30px;
         .search-blue {
             visibility: hidden;
             opacity: 0;

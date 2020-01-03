@@ -264,6 +264,7 @@ button:hover {
   z-index: 131;
   visibility: hidden;
   opacity: 0;
+  margin-top: 0px;
   transition: all 0.2s;
 }
 .desktop-nav .nav-search {
@@ -390,10 +391,10 @@ button:hover {
 .desktop-nav-transparent {
   background-color: transparent;
   box-shadow: 0 2px 4px 0px rgba(0, 0, 0, 0);
-  min-height: 82px;
+  min-height: 78px;
 }
 .desktop-nav-transparent .nav-wrap {
-  padding: 22px 56px;
+  padding: 20px 56px;
 }
 .desktop-nav-transparent .logo {
   visibility: none;
@@ -404,9 +405,10 @@ button:hover {
   opacity: 1;
   height: 48px;
   width: auto;
+  margin-top: -4px;
 }
 .desktop-nav-transparent .nav-search {
-  top: 32px;
+  top: 30px;
 }
 .desktop-nav-transparent .nav-search .search-blue {
   visibility: hidden;
