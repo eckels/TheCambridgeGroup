@@ -72,18 +72,19 @@ $desktop-nav-padding-vertical: 10px;
     transition: all 0.2s;
     z-index: 101;
     .nav-wrap {
+        transition: all 0.2s;
         position: relative;
         margin-left: auto;
         margin-right: auto;
         max-width: 1250px;
-        padding: $desktop-nav-padding-vertical $desktop-nav-padding-sides $desktop-nav-padding-vertical $desktop-nav-padding-sides;
+        padding: $desktop-nav-padding-vertical $desktop-nav-padding-sides;
     }
     .logo {
         height: 40px;
         width: auto;
         position: absolute;
         z-index: 130;
-        transition: all 0.2s;
+        transition: opacity 0.2s, visibility 0.2s, height 0.05s;
         opacity: 1;
         visibility: visible;
     }
@@ -102,6 +103,7 @@ $desktop-nav-padding-vertical: 10px;
         align-content: center;
         right: $desktop-nav-padding-sides;
         top: 20px;
+        transition: all 0.2s;
         img {
             height: 20px;
             width: auto;
@@ -163,7 +165,7 @@ $desktop-nav-padding-vertical: 10px;
             opacity: 0;
             transition: all 0.2s;
             background-color: $white;
-            box-shadow: 0 0 6px 0px rgba(0, 0, 0, 0.25);
+            box-shadow: 0 2px 6px 0px rgba(0, 0, 0, 0.25);
             margin-top: 15px;
             padding: 16px 32px 16px 32px;
             left: 50%;
@@ -220,6 +222,10 @@ $desktop-nav-padding-vertical: 10px;
 .desktop-nav-transparent {
     background-color: transparent;
     box-shadow: 0 2px 4px 0px rgba(0, 0, 0, 0);
+    min-height: 82px;
+    .nav-wrap {
+        padding: 22px $desktop-nav-padding-sides;
+    }
     .logo {
         visibility: none;
         opacity: 0;
@@ -227,8 +233,11 @@ $desktop-nav-padding-vertical: 10px;
     .logo-white {
         visibility: visible;
         opacity: 1;
+        height: 48px;
+        width: auto;
     }
     .nav-search {
+        top: 32px;
         .search-blue {
             visibility: hidden;
             opacity: 0;

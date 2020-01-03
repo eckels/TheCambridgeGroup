@@ -241,18 +241,19 @@ button:hover {
   z-index: 101;
 }
 .desktop-nav .nav-wrap {
+  transition: all 0.2s;
   position: relative;
   margin-left: auto;
   margin-right: auto;
   max-width: 1250px;
-  padding: 10px 56px 10px 56px;
+  padding: 10px 56px;
 }
 .desktop-nav .logo {
   height: 40px;
   width: auto;
   position: absolute;
   z-index: 130;
-  transition: all 0.2s;
+  transition: opacity 0.2s, visibility 0.2s, height 0.05s;
   opacity: 1;
   visibility: visible;
 }
@@ -271,6 +272,7 @@ button:hover {
   align-content: center;
   right: 56px;
   top: 20px;
+  transition: all 0.2s;
 }
 .desktop-nav .nav-search img {
   height: 20px;
@@ -333,7 +335,7 @@ button:hover {
   opacity: 0;
   transition: all 0.2s;
   background-color: #FFFFFF;
-  box-shadow: 0 0 6px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 2px 6px 0px rgba(0, 0, 0, 0.25);
   margin-top: 15px;
   padding: 16px 32px 16px 32px;
   left: 50%;
@@ -388,6 +390,10 @@ button:hover {
 .desktop-nav-transparent {
   background-color: transparent;
   box-shadow: 0 2px 4px 0px rgba(0, 0, 0, 0);
+  min-height: 82px;
+}
+.desktop-nav-transparent .nav-wrap {
+  padding: 22px 56px;
 }
 .desktop-nav-transparent .logo {
   visibility: none;
@@ -396,6 +402,11 @@ button:hover {
 .desktop-nav-transparent .logo-white {
   visibility: visible;
   opacity: 1;
+  height: 48px;
+  width: auto;
+}
+.desktop-nav-transparent .nav-search {
+  top: 32px;
 }
 .desktop-nav-transparent .nav-search .search-blue {
   visibility: hidden;
