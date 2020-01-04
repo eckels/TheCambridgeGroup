@@ -12,14 +12,14 @@
             max-width: 750px;
             margin-left: auto;
             margin-right: auto;
-            margin-bottom: 36px;
+            margin-bottom: 56px;
             color: $white-text;
         }
         .logo-grid-wrapper {
             max-width: 1000px;
             margin-left: auto;
             margin-right: auto;
-            margin-bottom: 36px;
+            margin-bottom: 24px;
             .logo-grid {
                 display: flex;
                 justify-content: space-evenly;
@@ -41,7 +41,7 @@
     .home-clients {
         .home-clients-content {
             .desc {
-                margin-bottom: 24px;
+                margin-bottom: 36px;
             }
             .logo-grid-wrapper {
                 margin-bottom: 30px;
@@ -75,7 +75,7 @@
     .home-news-content {
         h1 {
             text-align: center;
-            margin-bottom: 36px;
+            margin-bottom: 42px;
         }
         .news-grid-wrapper {
             text-align: left;
@@ -352,14 +352,14 @@
     background-position: center bottom;
     .connect-section-content {
         h1 {
-            margin-top: 24px;
+            margin-top: 18px;
             margin-bottom: 12px;
         }
         .desc {
             margin-bottom: 36px;
         }
         button {
-            margin-bottom: 24px;
+            margin-bottom: 18px;
         }
     }
 }
