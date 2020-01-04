@@ -278,6 +278,7 @@ button:hover {
   position: fixed;
   transition: all 0.2s;
   z-index: 101;
+  top: 0;
 }
 .desktop-nav .nav-wrap {
   transition: all 0.2s;
@@ -431,6 +432,7 @@ button:hover {
   background-color: transparent;
   box-shadow: 0 2px 4px 0px rgba(0, 0, 0, 0);
   min-height: 78px;
+  top: 0;
 }
 .desktop-nav-transparent .nav-wrap, .desktop-nav-header .nav-wrap {
   padding: 20px 56px;
@@ -1237,12 +1239,14 @@ button:hover {
   background-color: #F0F1FA;
   padding: 30px;
   display: flex;
+  justify-content: flex-start;
+  align-content: flex-start;
   max-width: 900px;
   margin-left: auto;
   margin-right: auto;
 }
 .award-section .award-section-content .award .logo {
-  height: auto;
+  height: 230px;
   width: 300px;
   border-radius: 2px;
   margin-right: 24px;
