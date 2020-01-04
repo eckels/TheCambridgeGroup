@@ -260,7 +260,7 @@ $desktop-nav-padding-vertical: 10px;
     display: none;
 }
 
-@media (max-width: 950px) {
+@media (max-width: 1000px) {
     .desktop-nav {
         .nav-wrap {
             padding: $desktop-nav-padding-vertical $desktop-nav-padding-sides-condensed $desktop-nav-padding-vertical $desktop-nav-padding-sides-condensed;
@@ -277,7 +277,7 @@ $desktop-nav-padding-vertical: 10px;
     }
 }
 
-@media (max-width: 880px) {
+@media (max-width: 900px) {
     .mobile-nav {
         display: block;
     }
