@@ -1078,7 +1078,7 @@ button:hover {
     margin-right: 0;
   }
   .home-news .home-news-content .news-grid-wrapper .news-grid-upper .article .article-text {
-    width: auto;
+    width: 100%;
     margin-left: 0;
     margin-top: 6px;
   }
@@ -1105,6 +1105,7 @@ button:hover {
     width: 100%;
   }
   .home-news .home-news-content .news-grid-wrapper .news-grid-lower .article .article-text {
+    width: 100%;
     margin-left: 0;
     margin-top: 6px;
   }
