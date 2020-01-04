@@ -1120,6 +1120,10 @@ button:hover {
 .connect-section {
   text-align: center;
   background-color: #FFFFFF;
+  background-image: url(../../img/background-dots.png);
+  background-repeat: repeat-x;
+  background-size: auto 275px;
+  background-position: center bottom;
 }
 .connect-section .connect-section-content h1 {
   margin-top: 24px;
@@ -1188,6 +1192,10 @@ button:hover {
 .home-capabilities {
   text-align: center;
   background-color: #FFFFFF;
+  background-image: url(../../img/background-dots.png);
+  background-repeat: repeat-x;
+  background-size: auto 275px;
+  background-position: center bottom;
 }
 .home-capabilities .home-capabilities-content h1 {
   margin-bottom: 12px;

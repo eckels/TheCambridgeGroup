@@ -346,6 +346,10 @@
 .connect-section {
     text-align: center;
     background-color: $white;
+    background-image: url(../../img/background-dots.png);
+    background-repeat: repeat-x;
+    background-size: auto 275px;
+    background-position: center bottom;
     .connect-section-content {
         h1 {
             margin-top: 24px;

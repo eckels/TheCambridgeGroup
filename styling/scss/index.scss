@@ -64,6 +64,10 @@
 .home-capabilities {
     text-align: center;
     background-color: $white;
+    background-image: url(../../img/background-dots.png);
+    background-repeat: repeat-x;
+    background-size: auto 275px;
+    background-position: center bottom;
     .home-capabilities-content {
         h1 {
             margin-bottom: 12px;
