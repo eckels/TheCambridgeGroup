@@ -1261,6 +1261,9 @@ button:hover {
     padding-left: 6px;
     padding-right: 6px;
   }
+  .home-capabilities .home-capabilities-content .icon-grid-wrapper .icon-grid .icon img {
+    height: 36px;
+  }
   .home-capabilities .home-capabilities-content .icon-grid-wrapper .icon-grid .icon p {
     font-size: 0.9em;
   }
