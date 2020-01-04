@@ -194,3 +194,47 @@ button:hover {
         }
     }
 }
+
+.section-header {
+    transition: all 0.2s;
+    margin-top: 78px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30vh;
+    .section-container {
+        background-color: rgba(0, 0, 0, 0.35);
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: inherit;
+        h1 {
+            color: $white-text;
+            font-size: 3.5em;
+        }
+    }
+}
+
+@media (max-width: 1000px) {
+    .section-header {
+        margin-top: 60px;
+    }
+}
+
+@media (max-width: 900px) {
+    .section-header {
+        margin-top: 48px;
+    }
+}
+
+@media (max-width: 500px) {
+    .section-header {
+        height: 35vh;
+        .section-container {
+            h1 {
+                font-size: 2.8em;
+            }
+        }
+    }
+}

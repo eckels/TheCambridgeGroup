@@ -1207,281 +1207,115 @@ button:hover {
   margin-bottom: 18px;
 }
 
-#home-header {
-  width: 100%;
-  height: 80vh;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-#home-header .home-header-content {
-  max-width: 1250px;
-  width: -moz-calc(100% - 96px);
-  width: -webkit-calc(100% - 96px);
-  width: calc(100% - 96px);
-  margin-left: auto;
+.about-desc .about-desc-content {
+  max-width: 900px;
   margin-right: auto;
-  position: relative;
-  z-index: 49;
-  height: 80vh;
-  padding-left: 48px;
-  padding-right: 48px;
+  margin-left: auto;
 }
-#home-header .home-header-content .blurb {
-  z-index: 50;
-  position: absolute;
-  bottom: 25vh;
-  max-width: 500px;
-}
-#home-header .home-header-content .blurb h2 {
-  text-shadow: 0 0 12px rgba(0, 0, 0, 0.25);
-  color: #FFFFFF;
-  font-size: 3.2em;
-}
-#home-header .home-header-content .blurb button {
-  margin-top: 16px;
-}
-
-@media (max-width: 600px) {
-  #home-header .home-header-content {
-    padding-left: 0;
-    padding-right: 0;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    width: 100%;
-  }
-  #home-header .home-header-content .blurb {
-    position: static;
-    padding-left: 30px;
-    padding-right: 30px;
-  }
-  #home-header .home-header-content .blurb h2 {
-    font-size: 2.3em;
-  }
-}
-.home-capabilities {
-  text-align: center;
-  background-color: #FFFFFF;
-  background-image: url(../../img/background-dots.png);
-  background-repeat: repeat-x;
-  background-size: auto 275px;
-  background-position: center bottom;
-}
-.home-capabilities .home-capabilities-content h1 {
+.about-desc .about-desc-content h3 {
   margin-bottom: 12px;
 }
-.home-capabilities .home-capabilities-content .desc {
-  max-width: 750px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 36px;
-}
-.home-capabilities .home-capabilities-content .icon-grid-wrapper {
-  max-width: 1000px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 30px;
-}
-.home-capabilities .home-capabilities-content .icon-grid-wrapper .icon-grid {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: flex-start;
-  flex-wrap: wrap;
-  width: 100%;
-}
-.home-capabilities .home-capabilities-content .icon-grid-wrapper .icon-grid a {
-  text-decoration: none;
-}
-.home-capabilities .home-capabilities-content .icon-grid-wrapper .icon-grid .icon {
-  width: 248px;
-  padding-left: 16px;
-  padding-right: 16px;
-  margin-top: 24px;
+.about-desc .about-desc-content p {
   margin-bottom: 24px;
-  position: relative;
-  transition: all 0.1s;
-  top: 0;
 }
-.home-capabilities .home-capabilities-content .icon-grid-wrapper .icon-grid .icon img {
-  position: relative;
-  height: 46px;
-  width: auto;
-  opacity: 0.75;
-  transition: all 0.1s;
-}
-.home-capabilities .home-capabilities-content .icon-grid-wrapper .icon-grid .icon p {
-  margin-top: 12px;
-}
-.home-capabilities .home-capabilities-content .icon-grid-wrapper .icon-grid .icon:hover img {
-  opacity: 1;
-}
-.home-capabilities .home-capabilities-content .icon-grid-wrapper .icon-grid .icon:hover {
-  top: -3px;
+.about-desc .about-desc-content .link-arrow {
+  margin-bottom: 0;
 }
 
-@media (max-width: 930px) {
-  .home-capabilities .home-capabilities-content .icon-grid-wrapper .icon-grid .icon {
-    margin-top: 16px;
-    margin-bottom: 16px;
-  }
+.award-section {
+  background-color: #FFFFFF;
+  padding-top: 18px;
+  padding-bottom: 18px;
 }
-@media (max-width: 650px) {
-  .home-capabilities .home-capabilities-content .icon-grid-wrapper .icon-grid .icon {
-    width: 140px;
-    padding-left: 6px;
-    padding-right: 6px;
-  }
-  .home-capabilities .home-capabilities-content .icon-grid-wrapper .icon-grid .icon img {
-    height: 36px;
-  }
-  .home-capabilities .home-capabilities-content .icon-grid-wrapper .icon-grid .icon p {
-    font-size: 0.9em;
-  }
+.award-section .award-section-content {
+  padding-top: 18px;
+  padding-bottom: 18px;
+  max-width: 1400px;
 }
-@media (max-width: 370px) {
-  .home-capabilities .home-capabilities-content .icon-grid-wrapper .icon-grid .icon {
-    width: 130px;
-    padding-left: 2px;
-    padding-right: 2px;
-    margin-top: 8px;
-    margin-bottom: 8px;
-  }
-  .home-capabilities .home-capabilities-content .icon-grid-wrapper .icon-grid .icon img {
-    height: 42px;
-  }
-}
-.home-careers {
+.award-section .award-section-content .award {
+  border-radius: 2px;
   background-color: #F0F1FA;
-}
-.home-careers .home-careers-content h1 {
-  text-align: center;
-  margin-bottom: 36px;
-}
-.home-careers .home-careers-content .centered-wrapper {
-  max-width: 1050px;
+  padding: 30px;
+  display: flex;
+  max-width: 900px;
   margin-left: auto;
   margin-right: auto;
 }
-.home-careers .home-careers-content .centered-wrapper .centered {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row-reverse;
-  width: 100%;
-}
-.home-careers .home-careers-content .centered-wrapper .centered .left {
-  width: 45%;
-  margin-right: -2.5%;
-  position: relative;
-  z-index: 3;
-}
-.home-careers .home-careers-content .centered-wrapper .centered .left .white-box {
-  background-color: #FFFFFF;
-  box-shadow: 0 2px 6px 0px rgba(0, 0, 0, 0.15);
-  padding: 30px 24px;
-  margin-bottom: 18px;
+.award-section .award-section-content .award .logo {
+  height: auto;
+  width: 300px;
   border-radius: 2px;
+  margin-right: 24px;
 }
-.home-careers .home-careers-content .centered-wrapper .centered .left .white-box .award {
+.award-section .award-section-content .award .text {
+  position: relative;
+}
+.award-section .award-section-content .award .text h3 {
+  margin-bottom: 6px;
+}
+.award-section .award-section-content .award .text .categories {
+  margin-top: 18px;
+  padding-bottom: 24px;
+  margin-bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.award-section .award-section-content .award .text .categories .category {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  margin-bottom: 18px;
+  margin-bottom: 6px;
+  margin-right: 18px;
 }
-.home-careers .home-careers-content .centered-wrapper .centered .left .white-box .award img {
-  height: 56px;
+.award-section .award-section-content .award .text .categories .category img {
+  height: 20px;
   width: auto;
-  margin-right: 10px;
-  border-radius: 2px;
+  margin-right: 6px;
 }
-.home-careers .home-careers-content .centered-wrapper .centered .left .white-box .award p {
-  color: #28B1C4;
-  font-style: italic;
-  font-size: 1.05em;
-}
-.home-careers .home-careers-content .centered-wrapper .centered .right {
-  width: 50%;
-  position: relative;
-  z-index: 2;
-}
-.home-careers .home-careers-content .centered-wrapper .centered .right img {
-  width: 100%;
-  height: auto;
-  border-radius: 2px;
+.award-section .award-section-content .award .text .link-arrow {
+  position: absolute;
+  bottom: 0;
 }
 
-@media (max-width: 1050px) {
-  .home-careers .home-careers-content .centered-wrapper .centered .left {
-    width: 48%;
-    margin-right: -15%;
-  }
-  .home-careers .home-careers-content .centered-wrapper .centered .left .white-box {
-    padding: 24px 18px;
-    margin-bottom: 12px;
-  }
-  .home-careers .home-careers-content .centered-wrapper .centered .left .white-box .award img {
-    margin-right: 8px;
-  }
-  .home-careers .home-careers-content .centered-wrapper .centered .right {
-    width: 60%;
-  }
-}
 @media (max-width: 900px) {
-  .home-careers .home-careers-content .centered-wrapper .centered .left {
-    width: 60%;
-    margin-right: -20%;
+  .award-section .award-section-content {
+    padding-top: 0;
+    padding-bottom: 0;
   }
-  .home-careers .home-careers-content .centered-wrapper .centered .right {
-    width: 65%;
+  .award-section .award-section-content .award .logo {
+    height: 200px;
+    width: auto;
+  }
+  .award-section .award-section-content .award .text .categories {
+    padding-bottom: 42px;
   }
 }
-@media (max-width: 780px) {
-  .home-careers .home-careers-content h1 {
-    margin-bottom: 18px;
-  }
-  .home-careers .home-careers-content .centered-wrapper .centered {
+@media (max-width: 650px) {
+  .award-section .award-section-content .award {
+    text-align: center;
+    padding: 18px;
     display: block;
+  }
+  .award-section .award-section-content .award .logo {
+    height: auto;
     width: 100%;
-    max-width: 500px;
+    max-width: 200px;
     margin-left: auto;
     margin-right: auto;
-  }
-  .home-careers .home-careers-content .centered-wrapper .centered .left {
-    width: 100%;
-    margin-right: -2.5%;
-  }
-  .home-careers .home-careers-content .centered-wrapper .centered .left .white-box {
-    padding: 30px 24px;
     margin-bottom: 18px;
-    border-radius: 0 0 2px 2px;
   }
-  .home-careers .home-careers-content .centered-wrapper .centered .left .white-box .award img {
-    height: 42px;
+  .award-section .award-section-content .award .text {
+    text-align: left;
   }
-  .home-careers .home-careers-content .centered-wrapper .centered .left .white-box .award p {
-    font-size: 0.95em;
-  }
-  .home-careers .home-careers-content .centered-wrapper .centered .left .link-arrow {
-    text-align: center;
-  }
-  .home-careers .home-careers-content .centered-wrapper .centered .right {
-    width: 100%;
-    margin-bottom: -5px;
-  }
-  .home-careers .home-careers-content .centered-wrapper .centered .right img {
-    border-radius: 2px 2px 0 0;
-    margin: 0;
+  .award-section .award-section-content .award .text .categories {
+    padding-bottom: 56px;
   }
 }
-@media (max-width: 420px) {
-  .home-careers .home-careers-content .centered-wrapper .centered .left .white-box {
-    padding: 24px 18px;
-    margin-bottom: 24px;
-  }
-  .home-careers .home-careers-content .centered-wrapper .centered .left .link-arrow {
-    margin-bottom: 18px;
-  }
+.difference-section {
+  text-align: center;
 }
 
-/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=about.css.map */
