@@ -1411,7 +1411,7 @@ button:hover {
 }
 @media (max-width: 650px) {
   .difference-section .difference-section-content h1 {
-    margin-bottom: 36px;
+    margin-bottom: 24px;
   }
   .difference-section .difference-section-content .step-wrapper {
     display: flex;
