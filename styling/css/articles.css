@@ -946,7 +946,7 @@ button:hover {
   flex-wrap: wrap;
 }
 .home-clients .home-clients-content .logo-grid-wrapper .logo-grid img {
-  width: 12%;
+  max-width: 12%;
   margin-left: 6%;
   margin-right: 6%;
   height: auto;
@@ -1207,9 +1207,9 @@ button:hover {
 .connect-section {
   text-align: center;
   background-color: #FFFFFF;
-  background-image: url(../../img/background-dots.png);
+  background-image: url(../../img/dots.png);
   background-repeat: repeat-x;
-  background-size: auto 275px;
+  background-size: auto 200px;
   background-position: center bottom;
 }
 .connect-section .connect-section-content h1 {

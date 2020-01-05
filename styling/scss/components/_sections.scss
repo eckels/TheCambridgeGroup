@@ -26,7 +26,7 @@
                 align-items: center;
                 flex-wrap: wrap;
                 img {
-                    width: 12%;
+                    max-width: 12%;
                     margin-left: 6%;
                     margin-right: 6%;
                     height: auto;
@@ -346,9 +346,9 @@
 .connect-section {
     text-align: center;
     background-color: $white;
-    background-image: url(../../img/background-dots.png);
+    background-image: url(../../img/dots.png);
     background-repeat: repeat-x;
-    background-size: auto 275px;
+    background-size: auto 200px;
     background-position: center bottom;
     .connect-section-content {
         h1 {

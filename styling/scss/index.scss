@@ -10,7 +10,8 @@
     height: 80vh;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: right center;
+    //background-position: right center;
+    background-position: center;
     .home-header-content {
         max-width: 1250px;
         width: -moz-calc(100% - 96px);
@@ -62,18 +63,13 @@
 }
 
 .home-about {
+    background-color: $primary-color-6;
     .home-about-content {
-        padding-top: 64px;
-        padding-bottom: 64px;
         text-align: center;
         .container {
             margin-left: auto;
             margin-right: auto;
-            max-width: 770px;
-            //max-width: 800px;
-            background-color: $primary-color-6;
-            padding: 24px;
-            border-radius: 2px;
+            max-width: 800px;
         }
         h1 {
             margin-bottom: 8px;
@@ -88,9 +84,6 @@
 @media (max-width: 500px) {
     .home-about {
         .home-about-content {
-            .container {
-                padding: 16px;
-            }
             h3 {
                 font-size: 1.2em;
             }
@@ -101,9 +94,9 @@
 .home-capabilities {
     text-align: center;
     background-color: $white;
-    background-image: url(../../img/background-dots.png);
+    background-image: url(../../img/dots.png);
     background-repeat: repeat-x;
-    background-size: auto 275px;
+    background-size: auto 200px;
     background-position: center bottom;
     .home-capabilities-content {
         h1 {
@@ -380,6 +373,7 @@
                         img {
                             border-radius: 2px 2px 0 0;
                             margin: 0;
+                            box-shadow: 0 2px 6px 0px rgba(0, 0, 0, 0.15);
                         }
                     }
                 }

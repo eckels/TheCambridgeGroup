@@ -946,7 +946,7 @@ button:hover {
   flex-wrap: wrap;
 }
 .home-clients .home-clients-content .logo-grid-wrapper .logo-grid img {
-  width: 12%;
+  max-width: 12%;
   margin-left: 6%;
   margin-right: 6%;
   height: auto;
@@ -1207,9 +1207,9 @@ button:hover {
 .connect-section {
   text-align: center;
   background-color: #FFFFFF;
-  background-image: url(../../img/background-dots.png);
+  background-image: url(../../img/dots.png);
   background-repeat: repeat-x;
-  background-size: auto 275px;
+  background-size: auto 200px;
   background-position: center bottom;
 }
 .connect-section .connect-section-content h1 {
@@ -1228,7 +1228,7 @@ button:hover {
   height: 80vh;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: right center;
+  background-position: center;
 }
 #home-header .home-header-content {
   max-width: 1250px;
@@ -1276,18 +1276,16 @@ button:hover {
     font-size: 2.3em;
   }
 }
+.home-about {
+  background-color: #F0F1FA;
+}
 .home-about .home-about-content {
-  padding-top: 64px;
-  padding-bottom: 64px;
   text-align: center;
 }
 .home-about .home-about-content .container {
   margin-left: auto;
   margin-right: auto;
-  max-width: 770px;
-  background-color: #F0F1FA;
-  padding: 24px;
-  border-radius: 2px;
+  max-width: 800px;
 }
 .home-about .home-about-content h1 {
   margin-bottom: 8px;
@@ -1298,9 +1296,6 @@ button:hover {
 }
 
 @media (max-width: 500px) {
-  .home-about .home-about-content .container {
-    padding: 16px;
-  }
   .home-about .home-about-content h3 {
     font-size: 1.2em;
   }
@@ -1308,9 +1303,9 @@ button:hover {
 .home-capabilities {
   text-align: center;
   background-color: #FFFFFF;
-  background-image: url(../../img/background-dots.png);
+  background-image: url(../../img/dots.png);
   background-repeat: repeat-x;
-  background-size: auto 275px;
+  background-size: auto 200px;
   background-position: center bottom;
 }
 .home-capabilities .home-capabilities-content h1 {
@@ -1537,6 +1532,7 @@ button:hover {
   .home-careers .home-careers-content .centered-wrapper .centered .right img {
     border-radius: 2px 2px 0 0;
     margin: 0;
+    box-shadow: 0 2px 6px 0px rgba(0, 0, 0, 0.15);
   }
 }
 @media (max-width: 420px) {
