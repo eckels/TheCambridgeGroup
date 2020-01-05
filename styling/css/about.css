@@ -1225,13 +1225,14 @@ button:hover {
   text-align: center;
 }
 .people-section .people-section-content h1 {
-  margin-bottom: 36px;
+  margin-bottom: 48px;
 }
 .people-section .people-section-content .grid-wrapper .grid {
   display: flex;
   justify-content: flex-start;
   align-content: flex-start;
   flex-wrap: wrap;
+  margin-bottom: 18px;
 }
 .people-section .people-section-content .grid-wrapper .grid .person-wrapper {
   width: 25%;
@@ -1292,10 +1293,17 @@ button:hover {
 }
 @media (max-width: 600px) {
   .people-section .people-section-content .grid-wrapper .grid .person-wrapper {
+    margin-bottom: 6%;
     width: 50%;
   }
 }
 @media (max-width: 400px) {
+  .people-section .people-section-content h1 {
+    margin-bottom: 36px;
+  }
+  .people-section .people-section-content .grid-wrapper .grid .person-wrapper {
+    margin-bottom: 8%;
+  }
   .people-section .people-section-content .grid-wrapper .grid .person-wrapper .person {
     max-width: 130px;
   }

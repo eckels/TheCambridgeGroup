@@ -2,7 +2,7 @@
     text-align: center;
     .people-section-content {
         h1 {
-            margin-bottom: 36px;
+            margin-bottom: 48px;
         }
         .grid-wrapper {
             .grid {
@@ -10,6 +10,7 @@
                 justify-content: flex-start;
                 align-content: flex-start;
                 flex-wrap: wrap;
+                margin-bottom: 18px;
                 .person-wrapper {
                     width: 25%;
                     margin-bottom: 5%;
@@ -106,6 +107,7 @@
             .grid-wrapper {
                 .grid {
                     .person-wrapper {
+                        margin-bottom: 6%;
                         width: 50%;
                     }
                 }
@@ -117,9 +119,13 @@
 @media (max-width: 400px) {
     .people-section {
         .people-section-content {
+            h1 {
+                margin-bottom: 36px;
+            }
             .grid-wrapper {
                 .grid {
                     .person-wrapper {
+                        margin-bottom: 8%;
                         .person {
                             max-width: 130px;
                             .title {
