@@ -1336,14 +1336,14 @@ button:hover {
 }
 
 .award-section-wrapper {
-  background-image: url(../../img/bround8.jpg);
+  background-image: url(../../img/bround6.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .award-section {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.75);
   padding-top: 18px;
   padding-bottom: 18px;
 }
