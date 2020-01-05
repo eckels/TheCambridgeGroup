@@ -32,11 +32,16 @@
                         }
                         .name {
                             font-size: 1.2em;
+                            font-weight: bold;
                             color: $primary-color-1;
+                            transition: all 0.2s;
                         }
                         .title {
                             color: $accent-color-blue;
                             font-size: 0.85em;
+                        }
+                        a:hover .name {
+                            color: $accent-color-blue;
                         }
                     }
                 }
@@ -120,7 +125,7 @@
     .people-section {
         .people-section-content {
             h1 {
-                margin-bottom: 36px;
+                margin-bottom: 42px;
             }
             .grid-wrapper {
                 .grid {

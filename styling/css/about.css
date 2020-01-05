@@ -1257,11 +1257,16 @@ button:hover {
 }
 .people-section .people-section-content .grid-wrapper .grid .person-wrapper .person .name {
   font-size: 1.2em;
+  font-weight: bold;
   color: #1C3552;
+  transition: all 0.2s;
 }
 .people-section .people-section-content .grid-wrapper .grid .person-wrapper .person .title {
   color: #28B1C4;
   font-size: 0.85em;
+}
+.people-section .people-section-content .grid-wrapper .grid .person-wrapper .person a:hover .name {
+  color: #28B1C4;
 }
 
 @media (max-width: 1000px) {
@@ -1299,7 +1304,7 @@ button:hover {
 }
 @media (max-width: 400px) {
   .people-section .people-section-content h1 {
-    margin-bottom: 36px;
+    margin-bottom: 42px;
   }
   .people-section .people-section-content .grid-wrapper .grid .person-wrapper {
     margin-bottom: 8%;
@@ -1542,6 +1547,13 @@ button:hover {
     margin-top: 4px;
     margin-bottom: 6px;
   }
+}
+.book-section {
+  text-align: center;
+  background-color: #214D73;
+}
+.book-section .book-section-content h1 {
+  color: #FFFFFF;
 }
 
 /*# sourceMappingURL=about.css.map */

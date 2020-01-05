@@ -1274,13 +1274,14 @@ button:hover {
     font-size: 2.3em;
   }
 }
-.home-about {
+.home-about .home-about-content {
   text-align: center;
 }
 .home-about .home-about-content .container {
   margin-left: auto;
   margin-right: auto;
-  max-width: 800px;
+  max-width: 770px;
+  background-color: #F0F1FA;
   padding: 24px;
   border-radius: 2px;
 }

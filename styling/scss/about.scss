@@ -268,3 +268,14 @@
         }
     }
 }
+
+.book-section {
+    text-align: center;
+    background-color: $primary-color-2;
+    .book-section-content {
+        h1 {
+            color: $white-text;
+        }
+
+    }
+}
