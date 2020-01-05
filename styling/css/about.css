@@ -1328,10 +1328,10 @@ button:hover {
     max-width: 115px;
   }
 }
-.page-desc .page-desc-content p {
+.page-desc-about .page-desc-content-about p {
   margin-bottom: 24px;
 }
-.page-desc .page-desc-content .link-arrow {
+.page-desc-about .page-desc-content-about .link-arrow {
   margin-bottom: 0;
 }
 
