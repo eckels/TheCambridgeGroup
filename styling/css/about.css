@@ -1343,13 +1343,13 @@ button:hover {
 }
 
 .award-section {
-  background-color: rgba(0, 0, 0, 0.35);
+  background-color: rgba(0, 0, 0, 0.5);
   padding-top: 18px;
   padding-bottom: 18px;
 }
 .award-section .award-section-content {
-  padding-top: 36px;
-  padding-bottom: 36px;
+  padding-top: 12px;
+  padding-bottom: 12px;
   max-width: 1400px;
 }
 .award-section .award-section-content .award {
@@ -1419,6 +1419,13 @@ button:hover {
   }
 }
 @media (max-width: 650px) {
+  .award-section-wrapper {
+    background-image: none;
+  }
+
+  .award-section {
+    background-color: #FFFFFF;
+  }
   .award-section .award-section-content .award {
     text-align: center;
     padding: 18px;

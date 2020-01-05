@@ -225,7 +225,7 @@
     background-repeat: no-repeat;
 }
 .home-careers {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.85);
     .home-careers-content {
         h1 {
             text-align: center;
@@ -334,10 +334,15 @@
 }
 
 @media (max-width: 780px) {
+    .home-careers-wrapper {
+        background-image: none;
+    }
     .home-careers {
+        background-color: $primary-color-6;
         .home-careers-content {
             h1 {
                 margin-bottom: 18px;
+                color: $primary-color-1;
             }
             .centered-wrapper {
                 .centered {
@@ -364,6 +369,9 @@
                         }
                         .link-arrow-white {
                             text-align: center;
+                            a {
+                                color: $primary-color-1;
+                            }
                         }
                     }
                     .right {
