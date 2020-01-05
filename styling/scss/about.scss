@@ -17,13 +17,21 @@
     }
 }
 
+.award-section-wrapper {
+    background-image: url(../../img/bround8.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 .award-section {
-    background-color: $white;
+    background-color: rgba(0, 0, 0, 0.35);
     padding-top: 18px;
     padding-bottom: 18px;
     .award-section-content {
-        padding-top: 18px;
-        padding-bottom: 18px;
+        //padding-top: 18px;
+        //padding-bottom: 18px;
+        padding-top: 36px;
+        padding-bottom: 36px;
         max-width: 1400px;
         .award {
             border-radius: 2px;
