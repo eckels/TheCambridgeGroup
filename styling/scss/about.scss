@@ -5,14 +5,8 @@
 @import 'components/nav';
 @import 'components/sections';
 
-.about-desc {
-    .about-desc-content {
-        max-width: 900px;
-        margin-right: auto;
-        margin-left: auto;
-        h3 {
-            margin-bottom: 12px;
-        }
+.page-desc {
+    .page-desc-content {
         p {
             margin-bottom: 24px;
         }
