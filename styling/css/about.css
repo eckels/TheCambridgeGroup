@@ -1221,6 +1221,98 @@ button:hover {
   margin-bottom: 18px;
 }
 
+.people-section {
+  text-align: center;
+}
+.people-section .people-section-content h1 {
+  margin-bottom: 36px;
+}
+.people-section .people-section-content .grid-wrapper .grid {
+  display: flex;
+  justify-content: flex-start;
+  align-content: flex-start;
+  flex-wrap: wrap;
+}
+.people-section .people-section-content .grid-wrapper .grid .person-wrapper {
+  width: 25%;
+  margin-bottom: 5%;
+}
+.people-section .people-section-content .grid-wrapper .grid .person-wrapper .person {
+  text-align: left;
+  max-width: 200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.people-section .people-section-content .grid-wrapper .grid .person-wrapper .person a {
+  text-decoration: none;
+}
+.people-section .people-section-content .grid-wrapper .grid .person-wrapper .person img {
+  width: 100%;
+  border-radius: 2px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 4px;
+}
+.people-section .people-section-content .grid-wrapper .grid .person-wrapper .person .name {
+  font-size: 1.2em;
+  color: #1C3552;
+}
+.people-section .people-section-content .grid-wrapper .grid .person-wrapper .person .title {
+  color: #28B1C4;
+  font-size: 0.85em;
+}
+
+@media (max-width: 1000px) {
+  .people-section .people-section-content .grid-wrapper .grid .person-wrapper {
+    width: 25%;
+  }
+  .people-section .people-section-content .grid-wrapper .grid .person-wrapper .person {
+    max-width: 160px;
+  }
+  .people-section .people-section-content .grid-wrapper .grid .person-wrapper .person .name {
+    font-size: 1.05em;
+  }
+}
+@media (max-width: 800px) {
+  .people-section .people-section-content .grid-wrapper .grid .person-wrapper {
+    width: 33%;
+  }
+  .people-section .people-section-content .grid-wrapper .grid .person-wrapper .person {
+    max-width: 180px;
+  }
+  .people-section .people-section-content .grid-wrapper .grid .person-wrapper .person .name {
+    font-size: 0.95em;
+  }
+}
+@media (max-width: 700px) {
+  .people-section .people-section-content .grid-wrapper .grid .person-wrapper .person {
+    max-width: 150px;
+  }
+}
+@media (max-width: 600px) {
+  .people-section .people-section-content .grid-wrapper .grid .person-wrapper {
+    width: 50%;
+  }
+}
+@media (max-width: 400px) {
+  .people-section .people-section-content .grid-wrapper .grid .person-wrapper .person {
+    max-width: 130px;
+  }
+  .people-section .people-section-content .grid-wrapper .grid .person-wrapper .person .title {
+    font-size: 0.8em;
+  }
+}
+@media (max-width: 350px) {
+  .people-section .people-section-content .grid-wrapper .grid .person-wrapper .person {
+    max-width: 125px;
+  }
+}
+@media (max-width: 310px) {
+  .people-section .people-section-content .grid-wrapper .grid .person-wrapper .person {
+    max-width: 115px;
+  }
+}
 .page-desc .page-desc-content p {
   margin-bottom: 24px;
 }

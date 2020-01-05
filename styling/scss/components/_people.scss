@@ -1,0 +1,166 @@
+.people-section {
+    text-align: center;
+    .people-section-content {
+        h1 {
+            margin-bottom: 36px;
+        }
+        .grid-wrapper {
+            .grid {
+                display: flex;
+                justify-content: flex-start;
+                align-content: flex-start;
+                flex-wrap: wrap;
+                .person-wrapper {
+                    width: 25%;
+                    margin-bottom: 5%;
+                    .person {
+                        text-align: left;
+                        max-width: 200px;
+                        margin-right: auto;
+                        margin-left: auto;
+                        a {
+                            text-decoration: none;
+                        }
+                        img {
+                            width: 100%;
+                            border-radius: 2px;
+                            height: auto;
+                            margin-left: auto;
+                            margin-right: auto;
+                            margin-bottom: 4px;
+                        }
+                        .name {
+                            font-size: 1.2em;
+                            color: $primary-color-1;
+                        }
+                        .title {
+                            color: $accent-color-blue;
+                            font-size: 0.85em;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1000px) {
+    .people-section {
+        .people-section-content {
+            .grid-wrapper {
+                .grid {
+                    .person-wrapper {
+                        width: 25%;
+                        .person {
+                            max-width: 160px;
+                            .name {
+                                font-size: 1.05em;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    } 
+}
+
+@media (max-width: 800px) {
+    .people-section {
+        .people-section-content {
+            .grid-wrapper {
+                .grid {
+                    .person-wrapper {
+                        width: 33%;
+                        .person {
+                            max-width: 180px;
+                            .name {
+                                font-size: 0.95em;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    } 
+}
+
+@media (max-width: 700px) {
+    .people-section {
+        .people-section-content {
+            .grid-wrapper {
+                .grid {
+                    .person-wrapper {
+                        .person {
+                            max-width: 150px;
+                        }
+                    }
+                }
+            }
+        }
+    } 
+}
+
+@media (max-width: 600px) {
+    .people-section {
+        .people-section-content {
+            .grid-wrapper {
+                .grid {
+                    .person-wrapper {
+                        width: 50%;
+                    }
+                }
+            }
+        }
+    } 
+}
+
+@media (max-width: 400px) {
+    .people-section {
+        .people-section-content {
+            .grid-wrapper {
+                .grid {
+                    .person-wrapper {
+                        .person {
+                            max-width: 130px;
+                            .title {
+                                font-size: 0.8em;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    } 
+}
+
+@media (max-width: 350px) {
+    .people-section {
+        .people-section-content {
+            .grid-wrapper {
+                .grid {
+                    .person-wrapper {
+                        .person {
+                            max-width: 125px;
+                        }
+                    }
+                }
+            }
+        }
+    } 
+}
+
+@media (max-width: 310px) {
+    .people-section {
+        .people-section-content {
+            .grid-wrapper {
+                .grid {
+                    .person-wrapper {
+                        .person {
+                            max-width: 115px;
+                        }
+                    }
+                }
+            }
+        }
+    } 
+}
