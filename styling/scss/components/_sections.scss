@@ -75,7 +75,6 @@
     .home-news-content {
         h1 {
             text-align: center;
-            margin-bottom: 42px;
         }
         .news-grid-wrapper {
             text-align: left;
@@ -84,6 +83,7 @@
             margin-bottom: 48px;
             max-width: 1050px;
             .news-grid-upper {
+                margin-top: 42px;
                 display: flex;
                 justify-content: center;
                 margin-bottom: 4%;
@@ -144,9 +144,11 @@
                 display: flex;
                 justify-content: space-between;
                 align-items: stretch;
+                flex-wrap: wrap;
                 .article {
                     width: 31%;
                     text-decoration: none;
+                    margin-bottom: 36px;
                     .article-image {
                         width: 100%;
                         height: auto;
@@ -280,12 +282,10 @@
 @media (max-width: 550px) {
     .home-news {
         .home-news-content {
-            h1 {
-                margin-bottom: 30px;
-            }
             .news-grid-wrapper {
                 margin-bottom: 42px;
                 .news-grid-upper {
+                    margin-top: 30px;
                     .article {
                         width: 100%;
                         display: block;
