@@ -30,7 +30,7 @@ $(function() {
                 var divoffset = $(this).offset().top;
                 var divheight = $(this).height();
                 var curr_href = 'a[href="' + '#' + $(this).attr('id') + '"]';
-                if ($sidebar.offset().top >= divoffset && $sidebar.offset().top <= divoffset + divheight) {
+                if ($sidebar.offset().top >= divoffset && $sidebar.offset().top <= divoffset + divheight + 48) {
                     $(curr_href).addClass('focused');
                 } else {
                     $(curr_href).removeClass('focused');
