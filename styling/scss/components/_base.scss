@@ -101,6 +101,14 @@ p {
     line-height: 145%;
 }
 
+a {
+    text-decoration: none;
+    transition: all 0.2s;
+}
+a:hover {
+    color: $accent-color-blue;
+}
+
 button {
     outline: none;
     border: none;

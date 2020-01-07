@@ -1232,326 +1232,163 @@ button:hover {
   margin-bottom: 18px;
 }
 
-#home-header {
+.mobile-sidebar-wrapper {
+  background-color: #28B1C4;
+  display: none;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  box-shadow: 0 2px 6px 0px rgba(0, 0, 0, 0.25);
   width: 100%;
-  height: 80vh;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
 }
-#home-header .home-header-content {
-  max-width: 1250px;
-  width: -moz-calc(100% - 96px);
-  width: -webkit-calc(100% - 96px);
-  width: calc(100% - 96px);
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
-  z-index: 49;
-  height: 80vh;
-  padding-left: 48px;
-  padding-right: 48px;
+.mobile-sidebar-wrapper .mobile-sidebar {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  border: solid #FFFFFF 1px;
+  padding: 4px;
+  padding-left: 10px;
+  overflow: hidden;
+  border-radius: 2px;
+  width: 90%;
 }
-#home-header .home-header-content .blurb {
-  z-index: 50;
-  position: absolute;
-  bottom: 25vh;
-  max-width: 500px;
-}
-#home-header .home-header-content .blurb h2 {
-  text-shadow: 0 0 12px rgba(0, 0, 0, 0.25);
+.mobile-sidebar-wrapper .mobile-sidebar #mobile-sidebar {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  cursor: pointer;
+  background-color: #28B1C4;
+  -webkit-appearance: none;
+  border: none;
+  font-size: 0.95em;
+  width: 100%;
   color: #FFFFFF;
-  font-size: 3.2em;
-}
-#home-header .home-header-content .blurb button {
-  margin-top: 16px;
+  border-radius: 0;
+  background-image: url("../../img/arrows.svg");
+  background-size: 13px;
+  background-repeat: no-repeat;
+  background-position: right;
 }
 
-@media (max-width: 600px) {
-  #home-header .home-header-content {
-    padding-left: 0;
-    padding-right: 0;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    width: 100%;
-  }
-  #home-header .home-header-content .blurb {
-    position: static;
-    padding-left: 30px;
-    padding-right: 30px;
-  }
-  #home-header .home-header-content .blurb h2 {
-    font-size: 2.3em;
-  }
+.fixed {
+  position: fixed;
+  top: 48px;
+  z-index: 148;
 }
-.home-about {
-  background-color: #F0F1FA;
-}
-.home-about .home-about-content {
-  text-align: center;
-}
-.home-about .home-about-content .container {
+
+.capabilities-mega-wrapper {
+  max-width: 1700px;
   margin-left: auto;
   margin-right: auto;
-  max-width: 800px;
-}
-.home-about .home-about-content h1 {
-  margin-bottom: 8px;
-}
-.home-about .home-about-content h3 {
-  font-weight: normal;
-  margin-bottom: 30px;
+  background-color: #FFFFFF;
+  padding: 64px 56px;
+  display: flex;
+  justify-content: space-around;
+  align-content: flex-start;
 }
 
-@media (max-width: 500px) {
-  .home-about .home-about-content h3 {
-    font-size: 1.2em;
+@media (max-width: 900px) {
+  .capabilities-mega-wrapper {
+    padding: 64px 18px 30px 18px;
   }
 }
-.home-capabilities {
-  text-align: center;
-  background-color: #FFFFFF;
-  background-image: url(../../img/dots.png);
-  background-repeat: repeat-x;
-  background-size: auto 200px;
-  background-position: center bottom;
+.capabilities-nav-wrapper {
+  width: 380px;
 }
-.home-capabilities .home-capabilities-content h1 {
+.capabilities-nav-wrapper .capabilities-nav {
+  padding: 18px;
+  padding-top: 0;
+}
+.capabilities-nav-wrapper .capabilities-nav .capabilities-section {
   margin-bottom: 12px;
 }
-.home-capabilities .home-capabilities-content .desc {
-  max-width: 750px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 36px;
+.capabilities-nav-wrapper .capabilities-nav .capabilities-section .cap-header {
+  color: #1C3552;
+  font-weight: bold;
+  font-size: 1.1em;
+  margin-bottom: 4px;
 }
-.home-capabilities .home-capabilities-content .icon-grid-wrapper {
-  max-width: 1000px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 30px;
+.capabilities-nav-wrapper .capabilities-nav .capabilities-section p {
+  margin-bottom: 6px;
 }
-.home-capabilities .home-capabilities-content .icon-grid-wrapper .icon-grid {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: flex-start;
-  flex-wrap: wrap;
-  width: 100%;
-}
-.home-capabilities .home-capabilities-content .icon-grid-wrapper .icon-grid a {
-  text-decoration: none;
-}
-.home-capabilities .home-capabilities-content .icon-grid-wrapper .icon-grid .icon {
-  width: 248px;
-  padding-left: 16px;
-  padding-right: 16px;
-  margin-top: 24px;
-  margin-bottom: 24px;
-  position: relative;
-  transition: all 0.1s;
-  top: 0;
-}
-.home-capabilities .home-capabilities-content .icon-grid-wrapper .icon-grid .icon img {
-  position: relative;
-  height: 46px;
-  width: auto;
+.capabilities-nav-wrapper .capabilities-nav .capabilities-section a {
+  margin-left: 15px;
+  display: block;
+  color: #1C3552;
   opacity: 0.75;
-  transition: all 0.1s;
+  transition: all 0.05s;
 }
-.home-capabilities .home-capabilities-content .icon-grid-wrapper .icon-grid .icon p {
-  margin-top: 12px;
-}
-.home-capabilities .home-capabilities-content .icon-grid-wrapper .icon-grid .icon:hover img {
+.capabilities-nav-wrapper .capabilities-nav .capabilities-section a:hover {
+  color: #28B1C4;
   opacity: 1;
+  margin-left: 7px;
 }
-.home-capabilities .home-capabilities-content .icon-grid-wrapper .icon-grid .icon:hover {
-  top: -3px;
-}
-
-@media (max-width: 930px) {
-  .home-capabilities .home-capabilities-content .icon-grid-wrapper .icon-grid .icon {
-    margin-top: 16px;
-    margin-bottom: 16px;
-  }
-}
-@media (max-width: 650px) {
-  .home-capabilities .home-capabilities-content .icon-grid-wrapper .icon-grid .icon {
-    width: 140px;
-    padding-left: 6px;
-    padding-right: 6px;
-  }
-  .home-capabilities .home-capabilities-content .icon-grid-wrapper .icon-grid .icon img {
-    height: 36px;
-  }
-  .home-capabilities .home-capabilities-content .icon-grid-wrapper .icon-grid .icon p {
-    font-size: 0.9em;
-  }
-}
-@media (max-width: 370px) {
-  .home-capabilities .home-capabilities-content .icon-grid-wrapper .icon-grid .icon {
-    width: 130px;
-    padding-left: 2px;
-    padding-right: 2px;
-    margin-top: 8px;
-    margin-bottom: 8px;
-  }
-  .home-capabilities .home-capabilities-content .icon-grid-wrapper .icon-grid .icon img {
-    height: 42px;
-  }
-}
-.home-careers-wrapper {
-  background-image: url(../../img/bround7.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+.capabilities-nav-wrapper .capabilities-nav .capabilities-section .focused {
+  opacity: 1;
+  color: #28B1C4;
+  margin-left: 7px;
 }
 
-.home-careers {
-  background-color: rgba(0, 0, 0, 0.85);
+.capabilities-content-wrapper {
+  max-width: 760px;
 }
-.home-careers .home-careers-content h1 {
-  text-align: center;
-  margin-bottom: 36px;
-  color: #FFFFFF;
+.capabilities-content-wrapper .capabilities-content {
+  padding-left: 30px;
+  padding-right: 30px;
 }
-.home-careers .home-careers-content .centered-wrapper {
-  max-width: 1050px;
-  margin-left: auto;
-  margin-right: auto;
+.capabilities-content-wrapper .capabilities-content h1 {
+  margin-top: 32px;
 }
-.home-careers .home-careers-content .centered-wrapper .centered {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row-reverse;
-  width: 100%;
+.capabilities-content-wrapper .capabilities-content .sub-bar {
+  height: 3px;
+  width: 100px;
+  background-color: #28B1C4;
+  margin-top: 6px;
+  margin-bottom: 32px;
 }
-.home-careers .home-careers-content .centered-wrapper .centered .left {
-  width: 45%;
-  margin-right: -2.5%;
-  position: relative;
-  z-index: 3;
+.capabilities-content-wrapper .capabilities-content .content-section .capability {
+  margin-bottom: 48px;
 }
-.home-careers .home-careers-content .centered-wrapper .centered .left .white-box {
-  background-color: #FFFFFF;
-  box-shadow: 0 2px 6px 0px rgba(0, 0, 0, 0.15);
-  padding: 30px 24px;
-  margin-bottom: 18px;
-  border-radius: 2px;
-}
-.home-careers .home-careers-content .centered-wrapper .centered .left .white-box .award {
+.capabilities-content-wrapper .capabilities-content .content-section .capability .capability-header {
   display: flex;
   justify-content: flex-start;
-  align-items: center;
+  align-content: center;
+  margin-bottom: 6px;
+}
+.capabilities-content-wrapper .capabilities-content .content-section .capability .capability-header img {
+  width: auto;
+  height: 28px;
+  margin-right: 6px;
+}
+.capabilities-content-wrapper .capabilities-content .content-section .capability .capability-header h4 {
+  font-size: 1.25em;
+}
+.capabilities-content-wrapper .capabilities-content .content-section .capability p {
   margin-bottom: 18px;
 }
-.home-careers .home-careers-content .centered-wrapper .centered .left .white-box .award img {
-  height: 56px;
-  width: auto;
-  margin-right: 10px;
-  border-radius: 2px;
-}
-.home-careers .home-careers-content .centered-wrapper .centered .left .white-box .award p {
-  color: #28B1C4;
-  font-style: italic;
-  font-size: 1.05em;
-}
-.home-careers .home-careers-content .centered-wrapper .centered .right {
-  width: 50%;
-  position: relative;
-  z-index: 2;
-}
-.home-careers .home-careers-content .centered-wrapper .centered .right img {
-  width: 100%;
-  height: auto;
-  border-radius: 2px;
-  box-shadow: 0 2px 6px 0px rgba(0, 0, 0, 0.5);
-}
 
-@media (max-width: 1050px) {
-  .home-careers .home-careers-content .centered-wrapper .centered .left {
-    width: 48%;
-    margin-right: -5%;
-  }
-  .home-careers .home-careers-content .centered-wrapper .centered .left .white-box {
-    padding: 24px 18px;
-    margin-bottom: 12px;
-  }
-  .home-careers .home-careers-content .centered-wrapper .centered .left .white-box .award img {
-    margin-right: 8px;
-  }
-  .home-careers .home-careers-content .centered-wrapper .centered .right {
-    width: 60%;
-  }
-}
-@media (max-width: 900px) {
-  .home-careers .home-careers-content .centered-wrapper .centered .left {
-    width: 60%;
-    margin-right: -5%;
-  }
-  .home-careers .home-careers-content .centered-wrapper .centered .right {
-    width: 65%;
-  }
-}
-@media (max-width: 780px) {
-  .home-careers-wrapper {
-    background-image: none;
+@media (max-width: 740px) {
+  .mobile-sidebar-wrapper {
+    display: flex;
+    justify-content: center;
+    align-content: center;
   }
 
-  .home-careers {
-    background-color: #F0F1FA;
-  }
-  .home-careers .home-careers-content h1 {
-    margin-bottom: 18px;
-    color: #1C3552;
-  }
-  .home-careers .home-careers-content .centered-wrapper .centered {
+  .capabilities-mega-wrapper {
     display: block;
-    width: 100%;
-    max-width: 500px;
-    margin-left: auto;
-    margin-right: auto;
+    padding-top: 32px;
   }
-  .home-careers .home-careers-content .centered-wrapper .centered .left {
-    width: 100%;
-    margin-right: -2.5%;
-  }
-  .home-careers .home-careers-content .centered-wrapper .centered .left .white-box {
-    padding: 30px 24px;
-    margin-bottom: 18px;
-    border-radius: 0 0 2px 2px;
-  }
-  .home-careers .home-careers-content .centered-wrapper .centered .left .white-box .award img {
-    height: 42px;
-  }
-  .home-careers .home-careers-content .centered-wrapper .centered .left .white-box .award p {
-    font-size: 0.95em;
-  }
-  .home-careers .home-careers-content .centered-wrapper .centered .left .link-arrow-white {
-    text-align: center;
-  }
-  .home-careers .home-careers-content .centered-wrapper .centered .left .link-arrow-white a {
-    color: #1C3552;
-  }
-  .home-careers .home-careers-content .centered-wrapper .centered .right {
-    width: 100%;
-    margin-bottom: -5px;
-  }
-  .home-careers .home-careers-content .centered-wrapper .centered .right img {
-    border-radius: 2px 2px 0 0;
-    margin: 0;
-    box-shadow: 0 2px 6px 0px rgba(0, 0, 0, 0.15);
+
+  .capabilities-nav-wrapper {
+    display: none;
   }
 }
-@media (max-width: 420px) {
-  .home-careers .home-careers-content .centered-wrapper .centered .left .white-box {
-    padding: 24px 18px;
-    margin-bottom: 24px;
+@media (max-width: 600px) {
+  .capabilities-content-wrapper .capabilities-content {
+    padding: 0;
   }
-  .home-careers .home-careers-content .centered-wrapper .centered .left .link-arrow-white {
-    margin-bottom: 18px;
+  .capabilities-content-wrapper .capabilities-content h1 {
+    margin-top: 24px;
   }
 }
 
-/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=capabilities.css.map */
