@@ -939,14 +939,14 @@ button:hover {
   max-width: 750px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 56px;
+  margin-bottom: 42px;
   color: #FFFFFF;
 }
 .home-clients .home-clients-content .logo-grid-wrapper {
   max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 24px;
+  margin-bottom: 36px;
 }
 .home-clients .home-clients-content .logo-grid-wrapper .logo-grid {
   display: flex;
@@ -959,7 +959,8 @@ button:hover {
   margin-left: 6%;
   margin-right: 6%;
   height: auto;
-  margin-bottom: 4%;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 
 @media (max-width: 800px) {
@@ -976,6 +977,7 @@ button:hover {
     margin-left: 11%;
     margin-right: 11%;
     margin-bottom: 7%;
+    margin-top: 0;
   }
 }
 /* News section */
