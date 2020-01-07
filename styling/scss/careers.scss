@@ -24,6 +24,7 @@
                 }
             }
             .image {
+                border-radius: 2px;
                 margin-bottom: -4px;
                 img {
                     width: 450px;
@@ -112,6 +113,7 @@
             margin-bottom: 36px;
         }
         .wrapper {
+            margin-bottom: 0;
             background-color: $white;
             border-radius: 2px;
             box-shadow: 0 2px 6px 0px rgba(0, 0, 0, 0.15);
@@ -141,7 +143,6 @@
         .careers-apply-content {
             .wrapper {
                 background-color: $white;
-                border-radius: 2px;
                 box-shadow: 0 2px 6px 0px rgba(0, 0, 0, 0.15);
                 .image {
                     img {
