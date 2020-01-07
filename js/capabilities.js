@@ -57,13 +57,16 @@ $(document).ready(function() {
     var sidebar_offset = $sidebar.offset().top + $sidebar.height();
     if ($window.width() < 740) {
         $sidebar.toggleClass('fixed', $window.scrollTop() >= sidebar_offset);
-
-
     }
 });
 
 document.getElementById('mobile-sidebar').onchange = function() {
+    var $sidebar = $('#sidebar-scroll-target');
+    var buffer = 110;
+    if ($sidebar.css('position') == 'static') {
+        buffer = 160;
+    }
     window.location.href = this.children[this.selectedIndex].getAttribute('value');
     var current_location = $(window).scrollTop();
-    window.scrollTo(0, current_location - 110);
+    window.scrollTo(0, current_location - buffer);
 }

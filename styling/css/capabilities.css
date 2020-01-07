@@ -1239,6 +1239,7 @@ button:hover {
   padding-bottom: 8px;
   box-shadow: 0 2px 6px 0px rgba(0, 0, 0, 0.25);
   width: 100%;
+  position: static;
 }
 .mobile-sidebar-wrapper .mobile-sidebar {
   margin: 0;
