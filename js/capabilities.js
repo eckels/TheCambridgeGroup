@@ -20,10 +20,15 @@ $(function() {
             var bottomDivPos = $bottomDiv.offset().top + $bottomDiv.height();
             if (bottomNavigation < bottomDivPos) {
                 if ($window.scrollTop() > offset.top - 100) {
-                    $sidebar.css('margin-top', $window.scrollTop() - offset.top + topPadding);
+                    $sidebar.css('top', topPadding);
+                    $sidebar.css('position', 'fixed');
                 } else {
                     $sidebar.css('margin-top', '');
+                    $sidebar.css('position', '');
                 }
+            }
+            if (bottomNavigation >= bottomDivPos) {
+                $sidebar.css('top', topPadding - bottomNavigation + bottomDivPos);
             }
     
             $(".capability").each(function() {
@@ -39,6 +44,9 @@ $(function() {
         });
     }
 });
+
+
+// Mobile
 
 $(function() {
     var $window = $(window);
