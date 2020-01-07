@@ -972,12 +972,15 @@ button:hover {
   }
 }
 @media (max-width: 550px) {
+  .home-clients .home-clients-content .desc {
+    margin-bottom: 30px;
+  }
   .home-clients .home-clients-content .logo-grid-wrapper .logo-grid img {
     width: 26%;
     margin-left: 11%;
     margin-right: 11%;
-    margin-bottom: 7%;
-    margin-top: 0;
+    margin-bottom: 3.5%;
+    margin-top: 3.5%;
   }
 }
 /* News section */
