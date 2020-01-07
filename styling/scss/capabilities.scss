@@ -69,6 +69,7 @@
 .capabilities-nav-wrapper {
     width: 380px;
     .capabilities-nav {
+        transition: all 0s;
         padding: 18px;
         padding-top: 0;
         .capabilities-section {

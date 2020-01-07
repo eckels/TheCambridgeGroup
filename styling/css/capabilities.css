@@ -1296,6 +1296,7 @@ button:hover {
   width: 380px;
 }
 .capabilities-nav-wrapper .capabilities-nav {
+  transition: all 0s;
   padding: 18px;
   padding-top: 0;
 }
