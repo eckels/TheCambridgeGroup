@@ -66,7 +66,11 @@ document.getElementById('mobile-sidebar').onchange = function() {
     if ($sidebar.css('position') == 'static') {
         buffer = 160;
     }
-    window.location.href = this.children[this.selectedIndex].getAttribute('value');
-    var current_location = $(window).scrollTop();
-    window.scrollTo(0, current_location - buffer);
+    if (this.children[this.selectedIndex].getAttribute('value') == "nothing") {
+
+    } else {
+        window.location.href = this.children[this.selectedIndex].getAttribute('value');
+        var current_location = $(window).scrollTop();
+        window.scrollTo(0, current_location - buffer);
+    }
 }
