@@ -955,7 +955,7 @@ button:hover {
   flex-wrap: wrap;
 }
 .home-clients .home-clients-content .logo-grid-wrapper .logo-grid img {
-  max-width: 12%;
+  width: 12%;
   margin-left: 6%;
   margin-right: 6%;
   height: auto;
