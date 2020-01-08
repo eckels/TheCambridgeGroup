@@ -1009,7 +1009,7 @@ button:hover {
   border-radius: 2px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .content-area {
     padding: 30px 18px 30px 18px;
   }
@@ -1018,6 +1018,36 @@ button:hover {
   }
   .content-area h5 {
     font-size: 1.25em;
+  }
+  .content-area p {
+    font-size: 1em;
+  }
+  .content-area b {
+    font-size: 1em;
+  }
+  .content-area i {
+    font-size: 1em;
+  }
+  .content-area u {
+    font-size: 1em;
+  }
+  .content-area strike {
+    font-size: 1em;
+  }
+  .content-area a {
+    font-size: 1em;
+  }
+  .content-area ul {
+    font-size: 1em;
+  }
+  .content-area li {
+    font-size: 1em;
+  }
+  .content-area ol {
+    font-size: 1em;
+  }
+  .content-area blockquote {
+    font-size: 1em;
   }
 }
 

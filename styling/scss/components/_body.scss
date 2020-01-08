@@ -81,7 +81,7 @@
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
     .content-area {
         padding: 30px 18px 30px 18px;
         h4 {
@@ -89,6 +89,36 @@
         }
         h5 {
             font-size: 1.25em;
+        }
+        p {
+            font-size: 1em;
+        }
+        b {
+            font-size: 1em;
+        }
+        i {
+            font-size: 1em;
+        }
+        u {
+            font-size: 1em;
+        }
+        strike {
+            font-size: 1em;
+        }
+        a {
+            font-size: 1em;
+        }
+        ul {
+            font-size: 1em;
+        }
+        li {
+            font-size: 1em;
+        }
+        ol {
+            font-size: 1em;
+        }
+        blockquote {
+            font-size: 1em;
         }
     }
 }
