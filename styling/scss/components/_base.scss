@@ -247,6 +247,24 @@ button:hover {
     }
 }
 
+.empty-header {
+    transition: all 0.2s;
+    height: 78px;
+    width: 100%;
+}
+
+@media (max-width: 1000px) {
+    .empty-header {
+        height: 60px;
+    }
+}
+
+@media (max-width: 900px) {
+    .empty-header {
+        height: 48px;
+    }
+}
+
 .page-desc {
     .page-desc-content {
         max-width: 900px;
