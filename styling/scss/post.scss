@@ -93,11 +93,16 @@
     .date {
         color: $accent-color-blue;
         font-size: 1em;
+        padding-bottom: 8px;
+        border-bottom: solid rgba(0, 0, 0, 0.15) 1px;
     }
 }
 
 @media (max-width: 600px) {
     .initial-info {
         padding: 0px 18px 0px 18px;
+        .date {
+            border-bottom: none;
+        }
     }
 }

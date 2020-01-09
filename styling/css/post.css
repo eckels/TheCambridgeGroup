@@ -1130,11 +1130,16 @@ button:hover {
 .initial-info .date {
   color: #28B1C4;
   font-size: 1em;
+  padding-bottom: 8px;
+  border-bottom: solid rgba(0, 0, 0, 0.15) 1px;
 }
 
 @media (max-width: 600px) {
   .initial-info {
     padding: 0px 18px 0px 18px;
+  }
+  .initial-info .date {
+    border-bottom: none;
   }
 }
 
