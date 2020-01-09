@@ -5,7 +5,7 @@
             margin-bottom: 48px;
         }
         .grid-wrapper {
-            margin-bottom: 48px;
+            margin-bottom: 18px;
             .grid {
                 display: flex;
                 justify-content: center;
@@ -31,6 +31,10 @@
                         font-style: italic;
                         margin-bottom: 36px;
                     }
+                    .bottom {
+                        //position: absolute;
+                        bottom: 24px;
+                    }
                     .bar {
                         height: 2px;
                         width: 48px;
@@ -48,6 +52,7 @@
                         max-width: 250px;
                         max-height: 48px;
                         height: auto;
+                        width: auto;
                     }
                 }
             }
@@ -64,6 +69,9 @@
                         padding: 18px 12px;
                         margin-left: 18px;
                         margin-right: 18px;
+                        .bottom {
+                            bottom: 18px;
+                        }
                     }
                 }
             }
@@ -95,7 +103,7 @@
     .testimonials {
         .testimonials-content {
             .grid-wrapper {
-                margin-bottom: 24px;
+                margin-bottom: 0;
                 .grid {
                     display: block;
                     .testimony {
@@ -104,6 +112,9 @@
                         padding: 24px 18px;
                         margin-left: auto;
                         margin-right: auto;
+                        .bottom {
+                            bottom: 24px;
+                        }
                     }
                 }
             }

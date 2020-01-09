@@ -927,6 +927,27 @@ button:hover {
   }
 }
 /* Clients section */
+.home-about .home-about-content {
+  text-align: center;
+}
+.home-about .home-about-content .container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
+}
+.home-about .home-about-content h1 {
+  margin-bottom: 8px;
+}
+.home-about .home-about-content h3 {
+  font-weight: normal;
+  margin-bottom: 0;
+}
+
+@media (max-width: 500px) {
+  .home-about .home-about-content h3 {
+    font-size: 1.2em;
+  }
+}
 .home-clients {
   background-color: #214D73;
   text-align: center;
@@ -1244,7 +1265,7 @@ button:hover {
   margin-bottom: 48px;
 }
 .testimonials .testimonials-content .grid-wrapper {
-  margin-bottom: 48px;
+  margin-bottom: 18px;
 }
 .testimonials .testimonials-content .grid-wrapper .grid {
   display: flex;
@@ -1273,6 +1294,9 @@ button:hover {
   font-style: italic;
   margin-bottom: 36px;
 }
+.testimonials .testimonials-content .grid-wrapper .grid .testimony .bottom {
+  bottom: 24px;
+}
 .testimonials .testimonials-content .grid-wrapper .grid .testimony .bar {
   height: 2px;
   width: 48px;
@@ -1290,6 +1314,7 @@ button:hover {
   max-width: 250px;
   max-height: 48px;
   height: auto;
+  width: auto;
 }
 
 @media (max-width: 1050px) {
@@ -1297,6 +1322,9 @@ button:hover {
     padding: 18px 12px;
     margin-left: 18px;
     margin-right: 18px;
+  }
+  .testimonials .testimonials-content .grid-wrapper .grid .testimony .bottom {
+    bottom: 18px;
   }
 }
 @media (max-width: 900px) {
@@ -1314,7 +1342,7 @@ button:hover {
 }
 @media (max-width: 750px) {
   .testimonials .testimonials-content .grid-wrapper {
-    margin-bottom: 24px;
+    margin-bottom: 0;
   }
   .testimonials .testimonials-content .grid-wrapper .grid {
     display: block;
@@ -1325,6 +1353,20 @@ button:hover {
     padding: 24px 18px;
     margin-left: auto;
     margin-right: auto;
+  }
+  .testimonials .testimonials-content .grid-wrapper .grid .testimony .bottom {
+    bottom: 24px;
+  }
+}
+.home-about .home-about-content h3 {
+  font-weight: normal;
+  margin-bottom: 0;
+  line-height: 135%;
+}
+
+@media (max-width: 500px) {
+  .home-about .home-about-content h3 {
+    font-size: 1.2em;
   }
 }
 .home-clients .home-clients-content .logo-grid-wrapper {

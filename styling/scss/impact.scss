@@ -6,6 +6,26 @@
 @import 'components/sections';
 @import 'components/testimonials';
 
+.home-about {
+    .home-about-content {
+        h3 {
+            font-weight: normal;
+            margin-bottom: 0;
+            line-height: 135%;
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .home-about {
+        .home-about-content {
+            h3 {
+                font-size: 1.2em;
+            }
+        }
+    }
+}
+
 .home-clients {
     .home-clients-content {
         .logo-grid-wrapper {
