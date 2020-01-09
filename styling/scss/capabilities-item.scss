@@ -8,10 +8,13 @@
 
 .title-wrap {
     background-color: $primary-color-6;
-    padding: 36px 30px;
+    padding: 48px 30px;
     border-radius: 2px;
 }
 .title {
+    max-width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
@@ -28,14 +31,10 @@
     }
 }
 
-.content-area {
-    margin-top: 48px;
-}
-
 
 @media(max-width: 650px) {
     .title-wrap {
-        padding: 24px 18px;
+        padding: 36px 18px;
     }
     .title {
         img {
@@ -46,14 +45,11 @@
             font-size: 1.7em;
         }
     }
-    .content-area {
-        margin-top: 36px;
-    }
 }
 
 @media(max-width: 480px) {
     .title-wrap {
-        padding: 18px;
+        padding: 30px 18px;
     }
     .title {
         img {
@@ -62,8 +58,5 @@
         h1 {
             font-size: 1.5em;
         }
-    }
-    .content-area {
-        margin-top: 30px;
     }
 }
