@@ -1274,164 +1274,153 @@ button:hover {
   margin-bottom: 18px;
 }
 
-.mobile-sidebar-wrapper {
-  background-color: #28B1C4;
-  display: none;
-  padding-top: 8px;
-  padding-bottom: 8px;
-  box-shadow: 0 2px 6px 0px rgba(0, 0, 0, 0.25);
-  width: 100%;
-  position: static;
-}
-.mobile-sidebar-wrapper .mobile-sidebar {
-  margin: 0;
-  padding: 0;
-  display: inline-block;
-  border: solid #FFFFFF 1px;
-  padding: 4px;
-  padding-left: 10px;
-  overflow: hidden;
-  border-radius: 2px;
-  width: 90%;
-}
-.mobile-sidebar-wrapper .mobile-sidebar #mobile-sidebar {
-  margin: 0;
-  padding: 0;
-  outline: none;
-  cursor: pointer;
-  background-color: #28B1C4;
-  -webkit-appearance: none;
-  border: none;
-  font-size: 0.95em;
-  width: 100%;
-  color: #FFFFFF;
-  border-radius: 0;
-  background-image: url("../../img/arrows.svg");
-  background-size: 13px;
-  background-repeat: no-repeat;
-  background-position: right;
-}
-
-.fixed {
-  position: fixed;
-  top: 48px;
-  z-index: 138;
-}
-
-.capabilities-mega-wrapper {
-  max-width: 1700px;
+.content-area {
+  max-width: 740px;
   margin-left: auto;
   margin-right: auto;
-  background-color: #FFFFFF;
-  padding: 64px 56px;
-  display: flex;
-  justify-content: space-around;
-  align-content: flex-start;
+}
+.content-area h4 {
+  font-size: 2em;
+  margin: 18px 0;
+}
+.content-area h5 {
+  font-size: 1.35em;
+  margin: 12px 0;
+}
+.content-area p {
+  font-size: 0.95em;
+  margin: 8px 0 18px 0;
+  line-height: 150%;
+}
+.content-area b {
+  font-size: 0.95em;
+  color: #1C3552;
+  line-height: 150%;
+}
+.content-area i {
+  font-size: 0.95em;
+  color: #1C3552;
+  line-height: 150%;
+}
+.content-area u {
+  font-size: 0.95em;
+  color: #1C3552;
+  line-height: 150%;
+}
+.content-area strike {
+  font-size: 0.95em;
+  color: #1C3552;
+  line-height: 150%;
+}
+.content-area a {
+  font-size: 0.95em;
+  color: #28B1C4;
+  border-bottom: solid #28B1C4 1px;
+  line-height: 150%;
+}
+.content-area a:hover {
+  color: #46c7d9;
+  border-bottom: solid #46c7d9 1px;
+}
+.content-area ul {
+  line-height: 190%;
+  margin: 0;
+}
+.content-area li {
+  font-size: 0.95em;
+  line-height: 150%;
+  color: #1C3552;
+  margin: 0;
+}
+.content-area ol {
+  line-height: 190%;
+  margin: 0;
+}
+.content-area blockquote {
+  font-size: 0.95em;
+  color: #1C3552;
+  margin: 0;
+  line-height: 150%;
+  margin-left: 20px;
+  padding-left: 14px;
+  border-left: solid #28B1C4 2px;
+  font-style: italic;
+}
+.content-area img {
+  width: 100%;
+  height: auto;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  border-radius: 2px;
 }
 
-@media (max-width: 900px) {
-  .capabilities-mega-wrapper {
-    padding: 64px 18px 30px 18px;
+@media (max-width: 600px) {
+  .content-area h4 {
+    font-size: 1.75em;
+  }
+  .content-area h5 {
+    font-size: 1.25em;
   }
 }
-.capabilities-nav-wrapper {
-  width: 380px;
-}
-.capabilities-nav-wrapper .capabilities-nav {
-  padding: 18px;
-  padding-top: 0;
-}
-.capabilities-nav-wrapper .capabilities-nav .capabilities-section {
-  margin-bottom: 12px;
-}
-.capabilities-nav-wrapper .capabilities-nav .capabilities-section .cap-header {
-  color: #1C3552;
-  font-weight: bold;
-  font-size: 1.1em;
-  margin-bottom: 4px;
-}
-.capabilities-nav-wrapper .capabilities-nav .capabilities-section p {
-  margin-bottom: 6px;
-}
-.capabilities-nav-wrapper .capabilities-nav .capabilities-section a {
-  margin-left: 15px;
-  display: block;
-  color: #1C3552;
-  opacity: 0.75;
-  transition: all 0.05s;
-}
-.capabilities-nav-wrapper .capabilities-nav .capabilities-section a:hover {
-  color: #28B1C4;
-  opacity: 1;
-  margin-left: 7px;
-}
-.capabilities-nav-wrapper .capabilities-nav .capabilities-section .focused {
-  opacity: 1;
-  color: #28B1C4;
-  margin-left: 7px;
+.title-wrap {
+  background-color: #F0F1FA;
+  padding: 36px 30px;
+  border-radius: 2px;
 }
 
-.capabilities-content-wrapper {
-  max-width: 760px;
-}
-.capabilities-content-wrapper .capabilities-content {
-  padding-left: 30px;
-  padding-right: 30px;
-}
-.capabilities-content-wrapper .capabilities-content h1 {
-  margin-top: 32px;
-}
-.capabilities-content-wrapper .capabilities-content .sub-bar {
-  height: 3px;
-  width: 100px;
-  background-color: #28B1C4;
-  margin-top: 6px;
-  margin-bottom: 32px;
-}
-.capabilities-content-wrapper .capabilities-content .content-section .capability {
-  margin-bottom: 48px;
-}
-.capabilities-content-wrapper .capabilities-content .content-section .capability .capability-header {
+.title {
   display: flex;
   justify-content: flex-start;
-  align-content: center;
+  align-items: flex-start;
+}
+.title img {
+  height: 40px;
+  width: auto;
+  margin-right: 18px;
+}
+.title h1 {
   margin-bottom: 6px;
 }
-.capabilities-content-wrapper .capabilities-content .content-section .capability .capability-header img {
-  width: auto;
-  height: 28px;
-  margin-right: 10px;
-}
-.capabilities-content-wrapper .capabilities-content .content-section .capability .capability-header h4 {
-  font-size: 1.25em;
-}
-.capabilities-content-wrapper .capabilities-content .content-section .capability p {
-  margin-bottom: 18px;
+.title .desc {
+  max-width: 500px;
 }
 
-@media (max-width: 740px) {
-  .mobile-sidebar-wrapper {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-  }
-
-  .capabilities-mega-wrapper {
-    display: block;
-    padding-top: 32px;
-  }
-
-  .capabilities-nav-wrapper {
-    display: none;
-  }
-}
-@media (max-width: 600px) {
-  .capabilities-content-wrapper .capabilities-content {
-    padding: 0;
-  }
-  .capabilities-content-wrapper .capabilities-content h1 {
-    margin-top: 24px;
-  }
+.content-area {
+  margin-top: 48px;
 }
 
-/*# sourceMappingURL=capabilities.css.map */
+@media (max-width: 650px) {
+  .title-wrap {
+    padding: 24px 18px;
+  }
+
+  .title img {
+    height: 36px;
+    margin-right: 12px;
+  }
+  .title h1 {
+    font-size: 1.7em;
+  }
+
+  .content-area {
+    margin-top: 36px;
+  }
+}
+@media (max-width: 480px) {
+  .title-wrap {
+    padding: 18px;
+  }
+
+  .title img {
+    height: 36px;
+  }
+  .title h1 {
+    font-size: 1.5em;
+  }
+
+  .content-area {
+    margin-top: 30px;
+  }
+}
+
+/*# sourceMappingURL=capabilities-item.css.map */
