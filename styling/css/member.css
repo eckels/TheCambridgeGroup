@@ -1024,7 +1024,7 @@ button:hover {
   }
   .person-wrapper .person-section .right {
     width: 100%;
-    margin-bottom: 24px;
+    margin-bottom: 36px;
   }
   .person-wrapper .person-section .right .container img {
     max-width: 290px;
@@ -1041,6 +1041,9 @@ button:hover {
   }
   .person-wrapper .person-section .left .text h1 {
     font-size: 1.9em;
+  }
+  .person-wrapper .person-section .right {
+    margin-bottom: 18px;
   }
 }
 
