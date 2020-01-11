@@ -43,6 +43,7 @@ $(document).ready(function() {
     if ($nav.css('display') == 'block') {
         $nav.toggleClass('desktop-nav-transparent', $(this).scrollTop() <= $nav.height());
     }
+    $('.search-bar').css('min-height', $('.desktop-nav').css('min-height'));
 });
 
 $(function() {
@@ -51,6 +52,7 @@ $(function() {
         if ($nav.css('display') == 'block') {
             $nav.toggleClass('desktop-nav-transparent', $(this).scrollTop() <= $nav.height());
         }
+        $('.search-bar').css('min-height', $('.desktop-nav').css('min-height'));
     });
 });
 
@@ -64,6 +66,7 @@ $(document).ready(function() {
             $('.section-header').css("margin-top", "60px");
         }
     }
+    $('.search-bar').css('min-height', $('.desktop-nav').css('min-height'));
 });
 
 $(function() {
@@ -77,6 +80,7 @@ $(function() {
                 $('.section-header').css("margin-top", "60px");
             }
         }
+        $('.search-bar').css('min-height', $('.desktop-nav').css('min-height'));
     });
 });
 
