@@ -33,7 +33,7 @@
         max-width: 1400px;
         .award {
             border-radius: 2px;
-            background-color: $primary-color-6;
+            background-color: $white;
             padding: 30px;
             display: flex;
             justify-content: flex-start;
@@ -109,6 +109,7 @@
                 text-align: center;
                 padding: 18px;
                 display: block;
+                background-color: $primary-color-6;
                 .logo {
                     height: auto;
                     width: 100%;
@@ -212,6 +213,65 @@
         }
     }
 }
+
+
+.nielsen-section {
+    background-color: $primary-color-6;
+    .nielsen-section-content {
+        .grid-wrapper {
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 1000px;
+        }
+        .grid {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            flex-direction: row-reverse;
+            .left {
+                width: 55%;
+                h2 {
+                    margin-bottom: 12px;
+                }
+                p {
+
+                }
+            }
+            .right {
+                width: 40%;
+                margin-left: 5%;
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 800px) {
+    .nielsen-section {
+        .nielsen-section-content {
+            .grid {
+                display: block;
+                .left {
+                    width: 100%;
+                    h2 {
+                        text-align: center;
+                    }
+                }
+                .right {
+                    width: 90%;
+                    max-width: 400px;
+                    margin-left: auto;
+                    margin-right: auto;
+                    margin-bottom: 36px;
+                }
+            }
+        }
+    }
+}
+
+
 
 .book-section {
     text-align: center;

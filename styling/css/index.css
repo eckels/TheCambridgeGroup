@@ -241,6 +241,9 @@ button:hover {
 .page-desc .page-desc-content h3 {
   margin-bottom: 12px;
 }
+.page-desc .page-desc-content h2 {
+  margin-bottom: 18px;
+}
 .page-desc .page-desc-content p {
   margin-bottom: 0;
 }
@@ -1431,14 +1434,14 @@ button:hover {
   }
 }
 .home-careers-wrapper {
-  background-image: url(../../img/bround7.jpg);
+  background-image: url(../../img/bround6.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .home-careers {
-  background-color: rgba(0, 0, 0, 0.85);
+  background-color: rgba(33, 77, 115, 0.9);
 }
 .home-careers .home-careers-content h1 {
   text-align: center;
