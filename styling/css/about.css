@@ -1630,4 +1630,10 @@ button:hover {
   font-weight: normal;
 }
 
+.our-team-header-text {
+  margin-top: 6px;
+  width: 100%;
+  margin-bottom: 36px !important;
+}
+
 /*# sourceMappingURL=about.css.map */
