@@ -221,6 +221,7 @@ button:hover {
   transition: all 0.2s;
   height: 78px;
   width: 100%;
+  box-shadow: 0 2px 6px 0px rgba(0, 0, 0, 0.25);
 }
 
 @media (max-width: 1000px) {
@@ -231,6 +232,11 @@ button:hover {
 @media (max-width: 900px) {
   .empty-header {
     height: 48px;
+  }
+}
+@media (max-width: 600px) {
+  .empty-header {
+    box-shadow: none;
   }
 }
 .page-desc .page-desc-content {
@@ -1033,34 +1039,40 @@ button:hover {
     font-size: 1.25em;
   }
 }
-.careers-nav {
+.title-wrap {
   background-color: #F0F1FA;
-}
-.careers-nav ul {
-  margin: 0;
-  text-align: center;
-  padding: 18px 18px;
-}
-.careers-nav ul li {
-  display: inline-block;
-  margin: 0 12px;
-}
-.careers-nav ul li a {
-  color: #1C3552;
-}
-.careers-nav ul li a:hover {
-  color: #28B1C4;
+  padding: 48px 30px;
 }
 
-@media (max-width: 900px) {
-  .careers-nav {
-    display: none;
+.title {
+  max-width: 1250px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 650px) {
+  .title-wrap {
+    padding: 36px 18px;
+  }
+
+  .title h1 {
+    font-size: 1.7em;
+  }
+}
+@media (max-width: 480px) {
+  .title-wrap {
+    padding: 30px 18px;
+  }
+
+  .title h1 {
+    font-size: 1.5em;
   }
 }
 .button-nav {
+  margin-top: 48px;
   display: flex;
   flex-direction: row-reverse;
-  justify-content: flex-end;
+  justify-content: flex-start;
   align-items: flex-start;
 }
 
