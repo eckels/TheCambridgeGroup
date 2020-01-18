@@ -4,6 +4,7 @@
 /* Components */
 @import 'components/nav';
 @import 'components/body-small';
+@import 'careers';
 
 .title-wrap {
     background-color: $primary-color-6;
@@ -45,16 +46,22 @@
     flex-direction: row-reverse;
     justify-content: flex-start;
     align-items: flex-start;
+    a {
+        border-bottom: none;
+        &:hover {
+            border-bottom: none;
+        }
+    }
 }
 
-.section {
+.section-main {
     .section-content {
         padding: 18px 36px 48px 36px;
     }
 }
 
 @media (max-width: 500px) {
-    .section {
+    .section-main {
         .section-content {
             padding: 12px 18px 24px 18px;
         }
