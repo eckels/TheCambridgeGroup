@@ -3,8 +3,14 @@
 
 /* Components */
 @import 'components/nav';
+@import 'components/testimonials';
+
+#bottom-pad {
+    padding-bottom: 1px;
+}
 
 .careers-section {
+    background-color: $primary-color-6;
     .careers-section-content {
         .wrapper {
             max-width: 950px;

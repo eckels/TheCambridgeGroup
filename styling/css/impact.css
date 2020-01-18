@@ -1332,10 +1332,8 @@ button:hover {
   font-weight: bold;
   font-size: 1.05em;
 }
-.testimonials .testimonials-content .grid-wrapper .grid .testimony .title {
-  margin-bottom: 24px;
-}
 .testimonials .testimonials-content .grid-wrapper .grid .testimony .logo {
+  margin-top: 24px;
   max-width: 132px;
   max-height: 30px;
   height: auto;
