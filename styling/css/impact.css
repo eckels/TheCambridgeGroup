@@ -1323,10 +1323,11 @@ button:hover {
   bottom: 24px;
 }
 .testimonials .testimonials-content .grid-wrapper .grid .testimony .bar {
-  height: 2px;
-  width: 48px;
+  height: 3px;
+  border-radius: 1px;
+  width: 32px;
   background-color: #28B1C4;
-  margin-bottom: 2px;
+  margin-bottom: 4px;
 }
 .testimonials .testimonials-content .grid-wrapper .grid .testimony .name {
   font-weight: bold;

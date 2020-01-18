@@ -35,10 +35,11 @@
                         bottom: 24px;
                     }
                     .bar {
-                        height: 2px;
-                        width: 48px;
+                        height: 3px;
+                        border-radius: 1px;
+                        width: 32px;
                         background-color: $accent-color-blue;
-                        margin-bottom: 2px;
+                        margin-bottom: 4px;
                     }
                     .name {
                         font-weight: bold;
