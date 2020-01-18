@@ -1336,8 +1336,8 @@ button:hover {
   margin-bottom: 24px;
 }
 .testimonials .testimonials-content .grid-wrapper .grid .testimony .logo {
-  max-width: 250px;
-  max-height: 48px;
+  max-width: 132px;
+  max-height: 30px;
   height: auto;
   width: auto;
 }
