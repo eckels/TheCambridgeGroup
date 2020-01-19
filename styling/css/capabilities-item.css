@@ -1553,6 +1553,9 @@ button:hover {
     margin-top: 0;
     width: 100%;
   }
+  .carousel-wrapper .glide__slide img {
+    border-radius: 0;
+  }
   .carousel-wrapper .glide__arrow {
     padding: 14px 3px;
   }

@@ -143,6 +143,11 @@
     .carousel-wrapper {
         margin-top: 0;
         width: 100%;
+        .glide__slide {
+            img {
+                border-radius: 0;
+            }
+        }
         .glide__arrow {
             padding: 14px 3px;
         }
