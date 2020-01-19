@@ -1469,7 +1469,7 @@ button:hover {
 }
 
 .glide__arrow:hover {
-  border-color: white;
+  border-color: #FFFFFF;
 }
 
 .glide__arrow--left {
@@ -1573,8 +1573,7 @@ button:hover {
   margin-top: 6px;
 }
 .slide-index #slide-state {
-  font-weight: bold;
-  font-size: 1em;
+  color: #1C3552;
 }
 
 /*# sourceMappingURL=capabilities-item.css.map */
