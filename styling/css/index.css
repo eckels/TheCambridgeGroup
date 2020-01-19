@@ -1615,10 +1615,11 @@ button:hover {
   .home-careers .home-careers-content .centered-wrapper .centered .left .white-box .award p {
     font-size: 0.95em;
   }
-  .home-careers .home-careers-content .centered-wrapper .centered .left .link-arrow-white {
+  .home-careers .home-careers-content .centered-wrapper .centered .left .link-arrow-wrap {
     text-align: center;
   }
-  .home-careers .home-careers-content .centered-wrapper .centered .left .link-arrow-white a {
+  .home-careers .home-careers-content .centered-wrapper .centered .left .link-arrow-white {
+    display: block;
     color: #1C3552;
   }
   .home-careers .home-careers-content .centered-wrapper .centered .right {

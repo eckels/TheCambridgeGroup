@@ -350,11 +350,12 @@
                                 }
                             }
                         }
+                        .link-arrow-wrap {
+                            text-align: center;    
+                        }
                         .link-arrow-white {
-                            text-align: center;
-                            a {
-                                color: $primary-color-1;
-                            }
+                            display: block;
+                            color: $primary-color-1;
                         }
                     }
                     .right {
