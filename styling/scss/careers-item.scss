@@ -54,6 +54,16 @@
     }
 }
 
+@media (max-width: 370px) {
+    .button-nav {
+        display: block;
+        text-align: center;
+        a {
+            display: block;
+        }
+    }
+}
+
 .section-main {
     .section-content {
         padding: 18px 36px 48px 36px;

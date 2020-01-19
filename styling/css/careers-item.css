@@ -2336,6 +2336,15 @@ button:hover {
   border-bottom: none;
 }
 
+@media (max-width: 370px) {
+  .button-nav {
+    display: block;
+    text-align: center;
+  }
+  .button-nav a {
+    display: block;
+  }
+}
 .section-main .section-content {
   padding: 18px 36px 48px 36px;
 }
