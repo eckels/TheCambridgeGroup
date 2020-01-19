@@ -1557,18 +1557,15 @@ button:hover {
     border-radius: 0;
   }
   .carousel-wrapper .glide__arrow {
-    padding: 14px 3px;
+    padding: 12px 2px;
   }
   .carousel-wrapper .glide__arrows img {
-    width: 22px;
+    width: 21px;
   }
 }
 @media (max-width: 340px) {
-  .carousel-wrapper .glide__arrow {
-    padding: 12px 3px;
-  }
   .carousel-wrapper .glide__arrows img {
-    width: 20px;
+    width: 19px;
   }
 }
 .slide-index {
