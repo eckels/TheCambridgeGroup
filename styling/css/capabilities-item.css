@@ -1568,5 +1568,13 @@ button:hover {
     width: 20px;
   }
 }
+.slide-index {
+  text-align: center;
+  margin-top: 6px;
+}
+.slide-index #slide-state {
+  font-weight: bold;
+  font-size: 1em;
+}
 
 /*# sourceMappingURL=capabilities-item.css.map */
