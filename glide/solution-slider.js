@@ -13,4 +13,4 @@ glide.mount();
 glide.on(['mount.before', 'run'], function() {
     slideIndex = glide.index + 1;
     $('#slide-state').html(slideIndex + " / " + slideCount);
-  })
+})
