@@ -1041,7 +1041,7 @@ button:hover {
   outline: none;
 }
 #contact-form input[type=text], #contact-form input[type=email], #contact-form textarea {
-  border: solid #1C3552 1px;
+  border: solid #B4BBCA 1px;
   font-size: 0.95em;
   transition: all 0.2s;
   color: #1C3552;

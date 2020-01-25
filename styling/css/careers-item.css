@@ -2100,7 +2100,8 @@ button:hover {
 .testimonials .testimonials-content .grid-wrapper .grid .testimony {
   text-align: left;
   background-color: #FFFFFF;
-  box-shadow: 0 1px 4px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 1px 4px 0px rgba(0, 0, 0, 0.15);
+  border: solid #E1E4EA 1px;
   max-width: 250px;
   padding: 24px 18px;
   border-radius: 4px;
@@ -2109,6 +2110,7 @@ button:hover {
   position: relative;
 }
 .testimonials .testimonials-content .grid-wrapper .grid .testimony .profile {
+  border: solid #28B1C4 3px;
   max-width: 145px;
   margin-left: auto;
   margin-right: auto;
@@ -2204,6 +2206,7 @@ button:hover {
 .careers-section .careers-section-content .wrapper .text .sub {
   color: #28B1C4;
   margin-bottom: 8px;
+  font-size: 1.05em;
 }
 .careers-section .careers-section-content .wrapper .image {
   border-radius: 2px;
