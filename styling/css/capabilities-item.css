@@ -1446,6 +1446,25 @@ button:hover {
   max-width: 500px;
 }
 
+.title-image-wrap-wrap {
+  background-position: center;
+  background-size: cover;
+}
+
+.title-image-wrap {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 64px 30px;
+}
+.title-image-wrap .title {
+  color: #FFFFFF;
+}
+.title-image-wrap .title h1 {
+  color: #FFFFFF;
+}
+.title-image-wrap .title .desc {
+  color: #FFFFFF;
+}
+
 @media (max-width: 650px) {
   .title-wrap {
     padding: 36px 18px;
@@ -1458,6 +1477,10 @@ button:hover {
   .title h1 {
     font-size: 1.7em;
   }
+
+  .title-image-wrap {
+    padding: 48px 18px;
+  }
 }
 @media (max-width: 480px) {
   .title-wrap {
@@ -1469,6 +1492,10 @@ button:hover {
   }
   .title h1 {
     font-size: 1.5em;
+  }
+
+  .title-image-wrap {
+    padding: 42px 18px;
   }
 }
 .glide__arrow:focus {
