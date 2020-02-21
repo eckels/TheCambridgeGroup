@@ -78,12 +78,13 @@ p {
 }
 
 a {
+  color: #28B1C4;
   text-decoration: none;
   transition: all 0.2s;
 }
 
 a:hover {
-  color: #28B1C4;
+  color: #46c7d9;
 }
 
 button {
@@ -1124,7 +1125,7 @@ button:hover {
   height: auto;
 }
 .section-header .section-container .post-header {
-  max-width: 1000px;
+  width: 1000px;
   padding: 24px;
   margin-left: auto;
   margin-right: auto;

@@ -102,11 +102,12 @@ p {
 }
 
 a {
+    color: $accent-color-blue;
     text-decoration: none;
     transition: all 0.2s;
 }
 a:hover {
-    color: $accent-color-blue;
+    color: $accent-color-blue-highlight;
 }
 
 button {
