@@ -1500,14 +1500,15 @@ button:hover {
   padding-bottom: 36px;
   margin-bottom: 0;
   width: 100%;
-  display: block;
+  display: flex;
+  flex-wrap: wrap;
 }
 .award-section .award-section-content .award .text .categories .category {
   display: flex;
   justify-content: flex-start;
   align-items: center;
   margin-bottom: 6px;
-  margin-right: 18px;
+  margin-right: 28px;
 }
 .award-section .award-section-content .award .text .categories .category img {
   height: 24px;
