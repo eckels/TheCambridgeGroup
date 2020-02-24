@@ -661,9 +661,17 @@ $desktop-nav-padding-vertical: 11px;
                         width: auto;
                         opacity: 0.75;
                         transition: all 0.2s;
+                        margin-right: 18px;
                     }
                     img:hover {
                         opacity: 1;
+                    }
+                    .IN-widget {
+                        height: 22px;
+                        width: 100px;
+                    }
+                    .follower-count {
+                        display: none !important;
                     }
                 }
             }

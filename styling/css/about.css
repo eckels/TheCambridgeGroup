@@ -949,9 +949,17 @@ button:hover {
   width: auto;
   opacity: 0.75;
   transition: all 0.2s;
+  margin-right: 18px;
 }
 .footer-wrapper .footer-content .middle-footer .middle-content .social-media img:hover {
   opacity: 1;
+}
+.footer-wrapper .footer-content .middle-footer .middle-content .social-media .IN-widget {
+  height: 22px;
+  width: 100px;
+}
+.footer-wrapper .footer-content .middle-footer .middle-content .social-media .follower-count {
+  display: none !important;
 }
 .footer-wrapper .footer-content .bottom-footer {
   display: flex;
