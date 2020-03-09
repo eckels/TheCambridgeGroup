@@ -4,3 +4,71 @@
 /* Components */
 @import 'components/nav';
 @import 'components/sections';
+
+.book-section {
+    .book-section-content {
+        .book-item {
+            max-width: 900px;
+            margin-left: auto;
+            margin-right: auto;
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+            margin-bottom: 48px;
+            .left {
+                margin-right: 32px;
+                img {
+                    max-width: 210px;
+                    height: auto;
+                }
+            }
+            .right {
+                h4 {
+                    font-size: 1.5em;
+                    margin-bottom: 6px;
+                }
+                .sub-header {
+                    color: $accent-color-blue;
+                    font-size: 1.05em;
+                    margin-bottom: 16px;
+                }
+                .desc {
+                    margin-bottom: 32px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 680px) {
+    .book-section {
+        .book-section-content {
+            .book-item {
+                display: block;
+                margin-bottom: 42px;
+                .left {
+                    margin-right: 0;
+                    text-align: center;
+                    margin-bottom: 20px;
+                    img {
+                        max-width: 180px;
+                    }
+                }
+                .right {
+                    h4 {
+                        font-size: 1.25em;
+                        margin-bottom: 6px;
+                    }
+                    .sub-header {
+                        color: $accent-color-blue;
+                        font-size: 1em;
+                        margin-bottom: 12px;
+                    }
+                    .desc {
+                        margin-bottom: 18px;
+                    }
+                }
+            }
+        }
+    }
+}

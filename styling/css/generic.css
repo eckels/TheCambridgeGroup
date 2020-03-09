@@ -949,7 +949,6 @@ button:hover {
   width: auto;
   opacity: 0.75;
   transition: all 0.2s;
-  margin-right: 18px;
 }
 .footer-wrapper .footer-content .middle-footer .middle-content .social-media img:hover {
   opacity: 1;

@@ -949,7 +949,6 @@ button:hover {
   width: auto;
   opacity: 0.75;
   transition: all 0.2s;
-  margin-right: 18px;
 }
 .footer-wrapper .footer-content .middle-footer .middle-content .social-media img:hover {
   opacity: 1;
@@ -1345,6 +1344,62 @@ button:hover {
 }
 .connect-section .connect-section-content button {
   margin-bottom: 18px;
+}
+
+.book-section .book-section-content .book-item {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 48px;
+}
+.book-section .book-section-content .book-item .left {
+  margin-right: 32px;
+}
+.book-section .book-section-content .book-item .left img {
+  max-width: 210px;
+  height: auto;
+}
+.book-section .book-section-content .book-item .right h4 {
+  font-size: 1.5em;
+  margin-bottom: 6px;
+}
+.book-section .book-section-content .book-item .right .sub-header {
+  color: #28B1C4;
+  font-size: 1.05em;
+  margin-bottom: 16px;
+}
+.book-section .book-section-content .book-item .right .desc {
+  margin-bottom: 32px;
+}
+
+@media (max-width: 680px) {
+  .book-section .book-section-content .book-item {
+    display: block;
+    margin-bottom: 42px;
+  }
+  .book-section .book-section-content .book-item .left {
+    margin-right: 0;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .book-section .book-section-content .book-item .left img {
+    max-width: 180px;
+  }
+  .book-section .book-section-content .book-item .right h4 {
+    font-size: 1.25em;
+    margin-bottom: 6px;
+  }
+  .book-section .book-section-content .book-item .right .sub-header {
+    color: #28B1C4;
+    font-size: 1em;
+    margin-bottom: 12px;
+  }
+  .book-section .book-section-content .book-item .right .desc {
+    margin-bottom: 18px;
+  }
 }
 
 /*# sourceMappingURL=books.css.map */
