@@ -25,7 +25,7 @@ $desktop-nav-padding-vertical: 11px;
             padding: 8px 12px 8px 12px;
             border-radius: 30px;
             transition: border 0.2s;
-            input {
+            #desktop-search-input {
                 font-family: century-gothic, sans-serif;
                 font-size: 1em;
                 width: 500px;
@@ -37,9 +37,10 @@ $desktop-nav-padding-vertical: 11px;
         .input-wrapper-focus {
             border: solid 1px $accent-color-blue !important;
         }
-        img {
+        img, .search-icon {
             height: 20px;
-            width: auto;
+            width: 20px;
+            outline: none;
         }
         #search-exit {
             cursor: pointer;
@@ -348,11 +349,11 @@ $desktop-nav-padding-vertical: 11px;
             width: -moz-calc(100% - 20px);
             width: -webkit-calc(100% - 20px);
             width: calc(100% - 20px);
-            img {
+            img, .search-icon {
                 height: 18px;
                 width: auto;
             }
-            input {
+            #mobile-search-input {
                 font-family: century-gothic, sans-serif;
                 font-size: 1em;
                 width: -moz-calc(100% - 30px);

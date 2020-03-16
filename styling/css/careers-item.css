@@ -329,7 +329,7 @@ button:hover {
   border-radius: 30px;
   transition: border 0.2s;
 }
-#desktop-search-wrapper .search-bar .input-wrapper input {
+#desktop-search-wrapper .search-bar .input-wrapper #desktop-search-input {
   font-family: century-gothic, sans-serif;
   font-size: 1em;
   width: 500px;
@@ -340,9 +340,10 @@ button:hover {
 #desktop-search-wrapper .search-bar .input-wrapper-focus {
   border: solid 1px #28B1C4 !important;
 }
-#desktop-search-wrapper .search-bar img {
+#desktop-search-wrapper .search-bar img, #desktop-search-wrapper .search-bar .search-icon {
   height: 20px;
-  width: auto;
+  width: 20px;
+  outline: none;
 }
 #desktop-search-wrapper .search-bar #search-exit {
   cursor: pointer;
@@ -642,11 +643,11 @@ button:hover {
   width: -webkit-calc(100% - 20px);
   width: calc(100% - 20px);
 }
-.mobile-search-wrapper .mobile-search-bar .mobile-search-wrapper img {
+.mobile-search-wrapper .mobile-search-bar .mobile-search-wrapper img, .mobile-search-wrapper .mobile-search-bar .mobile-search-wrapper .search-icon {
   height: 18px;
   width: auto;
 }
-.mobile-search-wrapper .mobile-search-bar .mobile-search-wrapper input {
+.mobile-search-wrapper .mobile-search-bar .mobile-search-wrapper #mobile-search-input {
   font-family: century-gothic, sans-serif;
   font-size: 1em;
   width: -moz-calc(100% - 30px);
@@ -1432,7 +1433,7 @@ button:hover {
   border-radius: 30px;
   transition: border 0.2s;
 }
-#desktop-search-wrapper .search-bar .input-wrapper input {
+#desktop-search-wrapper .search-bar .input-wrapper #desktop-search-input {
   font-family: century-gothic, sans-serif;
   font-size: 1em;
   width: 500px;
@@ -1443,9 +1444,10 @@ button:hover {
 #desktop-search-wrapper .search-bar .input-wrapper-focus {
   border: solid 1px #28B1C4 !important;
 }
-#desktop-search-wrapper .search-bar img {
+#desktop-search-wrapper .search-bar img, #desktop-search-wrapper .search-bar .search-icon {
   height: 20px;
-  width: auto;
+  width: 20px;
+  outline: none;
 }
 #desktop-search-wrapper .search-bar #search-exit {
   cursor: pointer;
@@ -1745,11 +1747,11 @@ button:hover {
   width: -webkit-calc(100% - 20px);
   width: calc(100% - 20px);
 }
-.mobile-search-wrapper .mobile-search-bar .mobile-search-wrapper img {
+.mobile-search-wrapper .mobile-search-bar .mobile-search-wrapper img, .mobile-search-wrapper .mobile-search-bar .mobile-search-wrapper .search-icon {
   height: 18px;
   width: auto;
 }
-.mobile-search-wrapper .mobile-search-bar .mobile-search-wrapper input {
+.mobile-search-wrapper .mobile-search-bar .mobile-search-wrapper #mobile-search-input {
   font-family: century-gothic, sans-serif;
   font-size: 1em;
   width: -moz-calc(100% - 30px);

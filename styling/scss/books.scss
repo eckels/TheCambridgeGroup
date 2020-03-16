@@ -20,6 +20,7 @@
                 img {
                     max-width: 210px;
                     height: auto;
+                    border-radius: 3px;
                 }
             }
             .right {
@@ -30,10 +31,10 @@
                 .sub-header {
                     color: $accent-color-blue;
                     font-size: 1.05em;
-                    margin-bottom: 16px;
+                    margin-bottom: 10px;
                 }
                 .desc {
-                    margin-bottom: 32px;
+                    margin-bottom: 24px;
                 }
             }
         }

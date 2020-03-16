@@ -1,7 +1,8 @@
 <!DOCTYPE HTML>
 <html lang="en">
     <head>
-        <link rel="stylesheet" href="styling/css/connect.css">
+        <link rel="stylesheet" href="styling/css/generic.css">
+        <link rel="stylesheet" href="styling/css/search.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes" />
         <link rel="apple-touch-icon" sizes="57x57" href="img/icon/apple-icon-57x57.png">
         <link rel="apple-touch-icon" sizes="60x60" href="img/icon/apple-icon-60x60.png">
@@ -22,16 +23,16 @@
         <meta name="theme-color" content="#FFFFFF">
         <meta name="description" content="" />
         <meta name="keywords" content="" />
-        <title>Connect - The Cambridge Group</title>
+        <title>Search - The Cambridge Group</title>
     </head>
 
     <body>
         <div id="desktop-search-wrapper">
             <div class="search-bar">
-                <div class="input-wrapper" id="border-target">
-                    <img src="img/search.svg" alt="Search icon" />
-                    <input id="desktop-search-input" type="text" placeholder="What can we help you find?" />
-                </div>
+                <form class="input-wrapper" id="border-target" method="" action="">
+                    <input type="image" src="img/search.svg" alt="Search" class="search-icon" />
+                    <input id="desktop-search-input" type="text" value="" placeholder="What can we help you find?" name="s" />
+                </form>
                 <img src="img/exit.svg" alt="Exit search" id="search-exit" />
             </div>
             <div id="search-shader"></div>
@@ -110,10 +111,10 @@
         <div class="mobile-search-wrapper" id="mobile-search-target-div">
             <div class="mobile-search-bar">
                 <div class="mobile-search-padding">
-                    <div class="mobile-search-wrapper">
-                        <img src="img/search.svg" alt="Search icon" />
-                        <input type="text" id="mobile-search-input" placeholder="What can we help you find?" />
-                    </div>
+                    <form class="mobile-search-wrapper" method="" action="">
+                        <input type="image" src="img/search.svg" alt="Search" class="search-icon" />
+                        <input id="mobile-search-input" type="text" value="" placeholder="What can we help you find?" name="s" />
+                    </form>
                 </div>
                 <img src="img/exit.svg" alt="Exit search" id="mobile-search-exit" />
             </div>
@@ -198,36 +199,58 @@
 
         <!-- Beginning of Body -->
 
-        <div class="section-header" style="background-image: url(img/bround-connect-1.jpg);">
-            <div class="section-container">
-                <h1>Connect</h1>
+        <div class="empty-header"></div>
+        <div class="title-wrap">
+            <div class="title">
+                <h1>Search Results</h1>
             </div>
         </div>
 
-        <div class="section page-desc">
-            <div class="section-content page-desc-content">
-                <h2>Contact details</h2>
-                <div class="basics-section-content">
-                    <div class="part">
-                        <p class="header">Headquarters</p>
-                        <p>10 S. Wacker Dr. <br>Suite 3550 <br>Chicago, IL 60606</p>
-                    </div>
-                    <div class="part">
-                        <p class="header">Contact</p>
-                        <p>(312) 425-3600 <br><a href="mailto:info@thecambridgegroup.com">info@thecambridgegroup.com</a></p>
-                    </div>
-                </div>
+        <div class="section">
+            <div class="section-content">
+                <form method="get" action="" >
+                    <input type="text" value="" name="s" />
+                    <input type="submit" value="Search"/>  
+               </form>
 
-                <form accept-charset="UTF-8" method="POST" id="contact-form">
-                    <h2>Get in touch with us</h2>
-                    <p class="title">Name</p>
-                    <input type="text" name="name" required="required" id="name" />
-                    <p class="title">Email</p>
-                    <input type="email" name="email" required="required" id="email">
-                    <p class="title">Message</p>
-                    <textarea name="message" required="required"></textarea>
-                    <input type="submit" name="submit" value="Submit" />
-                </form>
+               <div class="result-body">
+
+                    <h2>No results found.</h2>
+                    <p>Try searching for something else</p>
+
+                    <div class="result-item">
+                        <a href="">
+                            <h2>Search title here</h2>
+                            <p class="search-link">https://www.google.com/?client=safari</p>
+                            <p class="search-excerpt">Small excerpt will go here in some capacity</p>
+                        </a>
+                    </div>
+
+                    <div class="result-item">
+                        <a href="">
+                            <h2>Search title here</h2>
+                            <p class="search-link">https://www.google.com/?client=safari</p>
+                            <p class="search-excerpt">Small excerpt will go here in some capacity</p>
+                        </a>
+                    </div>
+
+                    <div class="result-item">
+                        <a href="">
+                            <h2>Search title here</h2>
+                            <p class="search-link">https://www.google.com/?client=safari</p>
+                            <p class="search-excerpt">Small excerpt will go here in some capacity</p>
+                        </a>
+                    </div>
+
+                    <div class="result-item">
+                        <a href="">
+                            <h2>Search title here</h2>
+                            <p class="search-link">https://www.google.com/?client=safari</p>
+                            <p class="search-excerpt">Small excerpt will go here in some capacity</p>
+                        </a>
+                    </div>
+    
+                </div>
             </div>
         </div>
 
