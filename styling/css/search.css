@@ -1061,13 +1061,13 @@ button:hover {
   transition: all 0.2s;
   margin-bottom: 2px;
 }
-.result-body .result-item h2:hover {
-  color: #28B1C4;
-}
 .result-body .result-item .search-link {
   color: #28B1C4;
   font-size: 0.8em;
   margin-bottom: 8px;
+}
+.result-body .result-item:hover h2 {
+  color: #28B1C4;
 }
 
 /*# sourceMappingURL=search.css.map */

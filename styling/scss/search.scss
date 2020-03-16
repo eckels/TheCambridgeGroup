@@ -51,9 +51,6 @@
             color: $primary-color-1;
             transition: all 0.2s;
             margin-bottom: 2px;
-            &:hover {
-                color: $accent-color-blue;
-            }
         }
         .search-link {
             color: $accent-color-blue;
@@ -62,6 +59,9 @@
         }
         .search-excerpt {
 
+        }
+        &:hover h2 {
+            color: $accent-color-blue;
         }
     }
 }
