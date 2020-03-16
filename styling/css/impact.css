@@ -1359,7 +1359,7 @@ button:hover {
 .testimonials .testimonials-content .grid-wrapper .grid {
   display: flex;
   justify-content: center;
-  align-items: stretch;
+  align-items: flex-start;
 }
 .testimonials .testimonials-content .grid-wrapper .grid .testimony {
   text-align: left;

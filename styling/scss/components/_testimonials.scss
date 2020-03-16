@@ -9,7 +9,7 @@
             .grid {
                 display: flex;
                 justify-content: center;
-                align-items: stretch;
+                align-items: flex-start;
                 .testimony {
                     text-align: left;
                     background-color: $white;
