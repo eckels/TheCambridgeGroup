@@ -12,7 +12,7 @@
         margin: 12px 0;
     }
     p {
-        font-size: 1.1em;
+        font-size: 1em;
         margin: 8px 0 18px 0;
         line-height: 150%;
     }
@@ -46,7 +46,7 @@
         margin: 0;
     }
     li {
-        font-size: 1.1em;
+        font-size: 1em;
         line-height: 150%;
         color: $primary-color-1;
         margin: 0;
@@ -56,7 +56,7 @@
         margin: 0;
     }
     blockquote {
-        font-size: 1.1em;
+        font-size: 1em;
         color: $primary-color-1;
         margin: 0;
         line-height: 150%;
@@ -76,6 +76,10 @@
         margin-left: auto;
         margin-right: auto;
     }
+    img.pdf {
+        max-height: 4000px !important;
+        width: 100%;
+    }
 }
 
 @media (max-width: 600px) {
@@ -88,16 +92,16 @@
             font-size: 1.25em;
         }
         p {
-            font-size: 1.05em;
+            font-size: 1em;
         }
         strike {
-            font-size: 1.05em;
+            font-size: 1em;
         }
         li {
-            font-size: 1.05em;
+            font-size: 1em;
         }
         blockquote {
-            font-size: 1.05em;
+            font-size: 1em;
         }
     }
 }

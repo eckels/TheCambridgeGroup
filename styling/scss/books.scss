@@ -14,7 +14,7 @@
             display: flex;
             justify-content: flex-start;
             align-items: flex-start;
-            margin-bottom: 48px;
+            margin-bottom: 72px;
             .left {
                 margin-right: 32px;
                 img {
@@ -34,6 +34,11 @@
                     margin-bottom: 10px;
                 }
                 .desc {
+                    color: $primary-color-1;
+                    margin: 0;
+                    padding: 0;
+                    font-size: 0.95em;
+                    line-height: 145%;
                     margin-bottom: 24px;
                 }
             }
@@ -46,7 +51,7 @@
         .book-section-content {
             .book-item {
                 display: block;
-                margin-bottom: 42px;
+                margin-bottom: 64px;
                 .left {
                     margin-right: 0;
                     text-align: center;

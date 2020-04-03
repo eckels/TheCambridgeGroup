@@ -867,7 +867,7 @@ button:hover {
   font-size: 0.9em;
   text-decoration: none;
   opacity: 0.65;
-  padding: 6px 12px 6px 12px;
+  padding: 10px 12px 10px 12px;
 }
 .mobile-nav-slide-wrapper .mobile-nav-slide .body-nav .list-item .nav-dropdown p {
   color: #1C3552;
@@ -1198,6 +1198,9 @@ button:hover {
   font-weight: normal;
   font-size: 1.1em;
 }
+.home-news .home-news-content .news-grid-wrapper .news-grid-lower .article-bar {
+  width: 31%;
+}
 .home-news .home-news-content .news-grid-wrapper .news-grid-lower a.article:hover .article-text h3 {
   color: #28B1C4;
 }
@@ -1354,7 +1357,7 @@ button:hover {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
-  margin-bottom: 48px;
+  margin-bottom: 72px;
 }
 .book-section .book-section-content .book-item .left {
   margin-right: 32px;
@@ -1374,13 +1377,18 @@ button:hover {
   margin-bottom: 10px;
 }
 .book-section .book-section-content .book-item .right .desc {
+  color: #1C3552;
+  margin: 0;
+  padding: 0;
+  font-size: 0.95em;
+  line-height: 145%;
   margin-bottom: 24px;
 }
 
 @media (max-width: 680px) {
   .book-section .book-section-content .book-item {
     display: block;
-    margin-bottom: 42px;
+    margin-bottom: 64px;
   }
   .book-section .book-section-content .book-item .left {
     margin-right: 0;

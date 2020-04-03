@@ -867,7 +867,7 @@ button:hover {
   font-size: 0.9em;
   text-decoration: none;
   opacity: 0.65;
-  padding: 6px 12px 6px 12px;
+  padding: 10px 12px 10px 12px;
 }
 .mobile-nav-slide-wrapper .mobile-nav-slide .body-nav .list-item .nav-dropdown p {
   color: #1C3552;
@@ -1198,6 +1198,9 @@ button:hover {
   font-weight: normal;
   font-size: 1.1em;
 }
+.home-news .home-news-content .news-grid-wrapper .news-grid-lower .article-bar {
+  width: 31%;
+}
 .home-news .home-news-content .news-grid-wrapper .news-grid-lower a.article:hover .article-text h3 {
   color: #28B1C4;
 }
@@ -1424,6 +1427,10 @@ button:hover {
   max-height: 600px;
   margin-left: auto;
   margin-right: auto;
+}
+.content-area img.pdf {
+  max-height: 4000px !important;
+  width: 100%;
 }
 
 @media (max-width: 600px) {
