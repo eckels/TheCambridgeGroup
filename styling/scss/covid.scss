@@ -1,0 +1,222 @@
+/* Global Stylings */
+@import 'components/base';
+
+.content-area {
+    p {
+        font-size: 1.05em;
+    }
+}
+
+.section-content {
+    padding-bottom: 12px !important;
+}
+
+#not-finished {
+    margin-top: 12px;
+    display: none;
+    color: $accent-color-orange;
+    font-size: 1.05em;
+}
+
+.result {
+    display: none;
+    margin-top: 42px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 12px;
+    img {
+        max-width: 85px;
+        width: 20%;
+        height: auto;
+        margin-bottom: 16px;
+    }
+    .res-text {
+        color: $accent-color-blue;
+        font-size: 1.45em;
+        font-weight: bold;
+        margin-bottom: 8px;
+        text-align: center;
+    }
+    .desc {
+        font-size: 1.05em;
+    }
+}
+
+.form-wrapper {
+    margin: 0 12px;
+    margin-bottom: 64px;
+    #form {
+        h4 {
+            margin: 0;
+            margin-bottom: 24px;
+            margin-top: 12px;
+            font-size: 1.6em;
+        }
+        max-width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+        .question-text {
+            font-size: 1.1em;
+            margin-bottom: 12px;
+        }
+        .question {
+            margin: 0 0 56px 0;
+            .response-wrap {
+                width: 100%;
+                .response {
+                    border: solid 1px $primary-color-6;
+                    .row {
+                        display: flex;
+                        justify-content: flex-start;
+                        align-items: center;
+                        padding: 8px 0;
+                        .left {
+                            width: 40%;
+                            p {
+                                padding-left: 8px;
+                            }
+                        }
+                        .right {
+                            display: flex;
+                            justify-content: flex-start;
+                            align-items: center;
+                            width: 100%;
+                            .item {
+                                width: 16.6%;
+                                text-align: center;
+                            }
+                            .override {
+                                width: 20% !important;
+                            }
+                            p {
+                                color: $white;
+                                font-size: 0.9em;
+                            }
+                        }
+                    }
+                    .row:nth-child(odd) {
+                        background-color: $primary-color-6;
+                    }
+                    .row:first-child {
+                        background-color: $primary-color-2;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 750px) {
+    .form-wrapper {
+        margin: 0;
+        margin-bottom: 64px;
+        button {
+            margin-left: 12px;
+        }
+        #form {
+            .question-text {
+                font-size: 1em;
+                margin-bottom: 12px;
+                padding: 0 8px;
+            }
+            .question {
+                margin: 0 0 42px 0;
+                .response-wrap {
+                    width: 100%;
+                    .response {
+                        border: none;
+                        .row {
+                            display: flex;
+                            justify-content: flex-start;
+                            align-items: center;
+                            padding: 8px 0;
+                            .left {
+                                width: 30%;
+                                p {
+                                    padding-left: 8px;
+                                    font-size: 0.9em;
+                                }
+                            }
+                            .right {
+                                display: flex;
+                                justify-content: flex-start;
+                                align-items: center;
+                                width: 100%;
+                                .item {
+                                    text-align: center;
+                                }
+                                p {
+                                    color: $white;
+                                    font-size: 0.75em;
+                                }
+                            }
+                        }
+                        .row:nth-child(odd) {
+                            background-color: $primary-color-6;
+                        }
+                        .row:first-child {
+                            background-color: $primary-color-2;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 550px) {
+    .form-wrapper {
+        margin: 0;
+        margin-bottom: 42px;
+        #form {
+            .question-text {
+                font-size: 1em;
+                margin-bottom: 12px;
+                padding: 0 8px;
+            }
+            .question {
+                margin: 0 0 42px 0;
+                .response-wrap {
+                    width: 100%;
+                    .response {
+                        border: none;
+                        .row {
+                            display: block;
+                            justify-content: flex-start;
+                            align-items: center;
+                            padding: 8px 0;
+                            .left {
+                                width: 100%;
+                                p {
+                                    padding-left: 8px;
+                                    font-size: 0.9em;
+                                    margin-bottom: 6px;
+                                }
+                            }
+                            .right {
+                                display: flex;
+                                justify-content: flex-start;
+                                align-items: center;
+                                width: 100%;
+                                .item {
+                                    text-align: center;
+                                }
+                                p {
+                                    color: $white;
+                                    font-size: 0.75em;
+                                }
+                            }
+                        }
+                        .row:nth-child(odd) {
+                            background-color: $primary-color-6;
+                        }
+                        .row:first-child {
+                            background-color: $primary-color-2;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
