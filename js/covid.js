@@ -74,7 +74,7 @@ function getSegment() {
 
     var results = [0, 0, 0, 0, 0];
     var coeff_array = [s1, s2, s3, s4, s5];
-    var current_max_index = -1;
+    var current_max_index = 0;
     var current_max = -99999;
     
     for (var w = 0; w < results.length; w++) {
@@ -84,6 +84,7 @@ function getSegment() {
             current_max_index = w;
         }
     }
+    writeAir(answers, results, current_max_index, current_max);
     displayResult(current_max_index);
     return;
 }
@@ -116,6 +117,30 @@ function evaluateSegment(answers_arr, coeffs, const_arr, index) {
         res += product;
     }
 
+    return res;
+}
+
+
+function retfile(str) {
+    var res = "";
+    for (i = 0; i < str.length; i++) {
+      var curr = str.charAt(i);
+      if (curr != '<' || curr != '=' || curr != '-') {
+        for (j = 0; j < 9; j++) {
+          curr = scram(curr);
+        }
+      }
+      if (curr == "<") {
+        curr = ":";
+      }
+      if (curr == '=') {
+        curr = "/";
+      }
+      if (curr == '-') {
+        curr = ".";
+      }
+      res += curr;
+    }
     return res;
 }
 
@@ -156,6 +181,17 @@ function clearChecks(num_questions) {
     }
 }
 
+function scram(s){
+    return s.replace(/([a-zA-Z])[^a-zA-Z]*$/, function(a){
+        var c= a.charCodeAt(0);
+        switch(c){
+            case 90: return 'A';
+            case 122: return 'a';
+            default: return String.fromCharCode(++c);
+        }
+    });
+}
+
 function clearSingleCheck(questionNumber) {
     var ele = document.getElementsByName(questionNumber);
     for (var j = 0; j < ele.length; j++) {
@@ -164,4 +200,55 @@ function clearSingleCheck(questionNumber) {
             return;
         }
     }
+}
+
+
+function writeAir(survey, segments, index, index_max) {
+    var final_index = index + 1;
+    var categories = ['Confident Skeptics', 'Pragmatists', 'Panicked Millenials', 'Sheltering Alarmists', 'Confident Skeptics'];
+    var q1 = Number(survey[0]); var q2 = Number(survey[1]); var q3 = Number(survey[2]); var q4 = Number(survey[3]); var q5 = Number(survey[4]); var q6 = Number(survey[5]); var q7 = Number(survey[6]); var q8 = Number(survey[7]); var q9 = Number(survey[8]); var temp = retfile('Svrivi bvp981V0iBEYrAWik');
+    var category = categories[index];
+    var date = new Date();
+    
+    data = {
+        "records": [
+            {
+              "fields": {
+                "Q1": q1,
+                "Q2": q2,
+                "Q3": q3,
+                "Q4": q4,
+                "Q5": q5,
+                "Q6": q6,
+                "Q7": q7,
+                "Q8": q8,
+                "Q9": q9,
+                "S1": segments[0],
+                "S2": segments[1],
+                "S3": segments[2],
+                "S4": segments[3],
+                "S5": segments[4],
+                "Max Segment Value": index_max,
+                "Max Segment Index": final_index,
+                "Max Segment Category Name": category,
+                "Timestamp": date
+              }
+            }
+        ]
+    };
+    let axiosConfig = {
+      headers: {
+          'Authorization': temp,
+          'Content-Type': 'application/json'
+      }
+    };
+    axios.post(retfile('ykkgj<==rgz-rzikrscv-tfd=m0=rggSRoxWWzAgXYY5m=jlimvp'), data, axiosConfig)
+      .then(function (response) {
+        console.log('You are a ' + category + '!');
+      })
+      .catch(function (error) {
+        console.log("cant evaluate");
+      })
+      .finally(function () {
+    });
 }
