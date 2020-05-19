@@ -1284,7 +1284,7 @@ button:hover {
     width: 100%;
     display: block;
     margin-bottom: 0;
-    max-width: 320px;
+    max-width: 400px;
     margin-bottom: 36px;
   }
   .home-news .home-news-content .news-grid-wrapper .news-grid-upper .article .article-image {
@@ -1311,7 +1311,7 @@ button:hover {
   .home-news .home-news-content .news-grid-wrapper .news-grid-lower .article {
     display: block;
     margin-bottom: 36px;
-    max-width: 320px;
+    max-width: 400px;
     margin-left: auto;
     margin-right: auto;
   }

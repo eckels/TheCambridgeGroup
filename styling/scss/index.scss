@@ -37,6 +37,13 @@
             button {
                 margin-top: 16px;
             }
+            .secondary-button {
+                margin-left: 12px;
+                background-color: $accent-color-orange;
+                &:hover {
+                    background-color: $accent-color-orange-highlight;
+                }
+            }
         }
     }
 }
@@ -56,6 +63,18 @@
                 padding-right: 30px;
                 h2 {
                     font-size: 2.3em;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 380px) {
+    #home-header {
+        .home-header-content {
+            .blurb {
+                .secondary-button {
+                    margin-left: 0;
                 }
             }
         }
